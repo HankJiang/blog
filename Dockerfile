@@ -13,7 +13,8 @@ RUN echo "deb http://archive.debian.org/debian stretch main" > /etc/apt/sources.
 RUN \
  apt-get update && \
  apt-get install git -y && \
- npm install -g hexo-cli
+ npm install -g hexo-cli \
+ rm -rf node_modules && npm install --force
 
 # 设置工作目录
 WORKDIR /app
