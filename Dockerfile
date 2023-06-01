@@ -1,10 +1,15 @@
+# ======= 缓存 =======
+FROM node:13 as builder
+
+WORKDIR /app
+COPY package.json .
+COPY package-lock.json* .
+RUN npm install
+
+# ======= 构建 =======
 FROM node:13
 
-MAINTAINER JiangHan <jianghan.ah@foxmail.com>
-
-# 默认服务端口
-ENV HEXO_SERVER_PORT=4000
-# Git账号
+ENV HEXO_SsERVER_PORT=4000
 ENV GIT_USER="HankJiang"
 ENV GIT_EMAIL="jianghan.ah@foxmail.com"
 
@@ -15,13 +20,12 @@ RUN \
  apt-get install git -y && \
  npm install -g hexo-cli
 
-# 设置工作目录
 WORKDIR /app
+COPY --from=builder /app/ /app/
 COPY . .
+CMD ['npm', 'start']
 
-RUN npm install --force
-
-# 暴露端口号
+# 暴露端
 EXPOSE ${HEXO_SERVER_PORT}
 
 # 运行指令
