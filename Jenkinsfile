@@ -15,7 +15,7 @@ spec:
 ''') {
     node(POD_LABEL) {
         git 'https://github.com/HankJiang/blog.git'
-        def imageTag = "gsxxm/blog:test"
+        def imageTag = "gsxxm/blog:latest"
 
         stage('构建Docker镜像') {
             container('构建 Docker 镜像') {
