@@ -1,0 +1,55 @@
+
+############### 在 star 命名空间创建 deployment ###################
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blog
+  namespace: star
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: blog
+  template:
+    metadata:
+      labels:
+        app: blog
+    spec:
+      nodeSelector:
+        flag: slave
+      terminationGracePeriodSeconds: 10
+      containers:
+        - name: blog
+          image: gsxxm/blog:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 4000
+              name: web
+              protocol: TCP
+          resources:
+            limits:
+              cpu: 1000m
+              memory: 1Gi
+            requests:
+              cpu: 500m
+              memory: 512Mi
+          securityContext:
+            runAsUser: 0
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: blog
+  namespace: star
+  labels:
+    app: blog
+spec:
+  selector:
+    app: blog
+  type: ClusterIP
+  ports:
+    - name: web
+      port: 4000
+      targetPort: 4000
+
