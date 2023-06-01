@@ -1,4 +1,3 @@
-def label = "jenkins-slave"
 podTemplate(cloud: 'k8s', yaml:
 '''
 apiVersion: v1
@@ -30,7 +29,6 @@ spec:
                             docker tag ${imageTag} ${imageTag}
                             docker push ${imageTag}
                         """
-                        kubernetesDeploy(configs: "deployment.yaml")
                     }
                 }
             }
