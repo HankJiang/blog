@@ -1,6 +1,6 @@
 def label = "jenkins-slave"
 podTemplate(label: 'jenkins-slave' , cloud: 'k8s') {
-    node('vm-0-17-opencloudos') {
+    node('jenkins-slave') {
         //拉取仓库代码
         def myRepo = checkout scm
         def gitBranch = myRepo.GIT_BRANCH.replaceAll("origin/","").replaceAll("/","-").replaceAll("\\.","-")
@@ -53,8 +53,7 @@ podTemplate(label: 'jenkins-slave' , cloud: 'k8s') {
                         """
                     }
                 }
-            }s
+            }
         }
     }
 }
-
