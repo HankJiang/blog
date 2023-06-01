@@ -1,4 +1,4 @@
-FROM node:13-slim
+FROM node:13
 
 MAINTAINER JiangHan <jianghan.ah@foxmail.com>
 
@@ -13,15 +13,16 @@ RUN echo "deb http://archive.debian.org/debian stretch main" > /etc/apt/sources.
 RUN \
  apt-get update && \
  apt-get install git -y && \
- npm install -g hexo-cli \
- rm -rf node_modules && npm install --force
+ npm install -g hexo-cli
 
 # 设置工作目录
 WORKDIR /app
 COPY . .
 
+RUN npm install --force
+
 # 暴露端口号
 EXPOSE ${HEXO_SERVER_PORT}
 
 # 运行指令
-CMD hexo server -d -p ${HEXO_SERVER_PORT}
+CMD hexo server -p ${HEXO_SERVER_PORT}
