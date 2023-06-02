@@ -14,11 +14,11 @@ spec:
 ''') {
     node(POD_LABEL) {
         def gitRepo = "https://github.com/HankJiang/blog.git"
-        def imageTag = "gsxxm/blog:latest"
         def scmVars = checkout([$class: 'GitSCM', branches: [[name: 'master']],
         userRemoteConfigs: [[url: 'https://github.com/jenkinsci/git-plugin.git']]])
         def gitCommit = scmVars.GIT_COMMIT
-        
+        def imageTag = "gsxxm/blog:${gitCommit}"
+
         git 'https://github.com/HankJiang/blog.git'
 
         stage('构建镜像并部署') {
