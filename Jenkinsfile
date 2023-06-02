@@ -37,8 +37,7 @@ spec:
                         """
                         withKubeConfig([namespace: "star"]) {
                             sh """
-                              kubectl patch deployment blog --patch-file deployment.yaml
-                              kubectl patch deployment blog --patch "${spec}"
+                                kubectl set image deployment/blog blog=gsxxm/blog:9f2702fd41f456662c32aa8c36969308fa060249 --record
                             """
                         }
                     }
