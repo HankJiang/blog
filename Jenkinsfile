@@ -5,7 +5,7 @@ kind: Pod
 spec:
   containers:
     - name: docker
-      image: docker:19.03.1-dind
+      image: gsxxm/docker-kubectl:latest
       securityContext:
         privileged: true
       env:
