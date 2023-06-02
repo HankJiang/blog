@@ -36,7 +36,7 @@ spec:
                         """
                         withKubeConfig([namespace: "star"]) {
                             sh '''
-                                kubectl rollout restart deployment -f deployment.yaml
+                                kubectl rollout restart deployment deployment.yaml
                             '''
                         }
                     }
