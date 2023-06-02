@@ -3,6 +3,7 @@ FROM node:13 as builder
 
 WORKDIR /app
 COPY package.json .
+RUN npm install hexo-renderer-pug hexo-renderer-stylus --save
 RUN npm install
 
 # ======= 构建 =======
