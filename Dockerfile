@@ -3,7 +3,6 @@ FROM node:13 as builder
 
 WORKDIR /app
 COPY package.json .
-COPY package-lock.json* .
 RUN npm install
 
 # ======= 构建 =======
