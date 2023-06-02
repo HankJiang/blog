@@ -36,7 +36,7 @@ spec:
                         """
                         withKubeConfig([namespace: "star"]) {
                             sh '''
-                              kubectl patch deployment blog --patch '{"spec": {"template": {"spec": {"containers": [{"name": "blog","image": ${imageTag}}]}}}}'
+                              kubectl patch deployment blog --patch '{"spec": {"template": {"spec": {"containers": [{"name": "blog","image": "${imageTag}"}]}}}}'
                             '''
                         }
                     }
