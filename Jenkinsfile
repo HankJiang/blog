@@ -16,7 +16,7 @@ spec:
         def gitRepo = "https://github.com/HankJiang/blog.git"
         def scmVars = checkout([$class: 'GitSCM', branches: [[name: 'master']],
         userRemoteConfigs: [[url: 'https://github.com/jenkinsci/git-plugin.git']]])
-        def gitCommit = scmVars.GIT_COMMIT.take(8)
+        def gitCommit = scmVars.GIT_COMMIT
         def imageTag = "gsxxm/blog:${gitCommit}"
 
         git 'https://github.com/HankJiang/blog.git'
@@ -36,7 +36,7 @@ spec:
                         """
                         withKubeConfig([namespace: "star"]) {
                             sh '''
-                                kubectl rollout restart deployment blog -n star
+                              kubectl set image deployment/blog mycontainer=${imageTag}
                             '''
                         }
                     }
