@@ -14,10 +14,9 @@ spec:
 ''') {
     node(POD_LABEL) {
         def gitRepo = "https://github.com/HankJiang/blog.git"
-        def imageTag = "gsxxm/blog:${commitHash}"
-
         git 'https://github.com/HankJiang/blog.git'
         def commitHash = sh(script: 'git rev-parse --short HEAD', returnStdout: true)
+        def imageTag = "gsxxm/blog:${commitHash}"
 
         stage('构建镜像并部署') {
             container('构建镜像并部署') {
