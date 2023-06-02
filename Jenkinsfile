@@ -37,7 +37,7 @@ spec:
                         """
                         withKubeConfig([namespace: "star"]) {
                             sh '''
-                              kubectl patch deployment blog --patch ${spec}
+                              kubectl patch deployment blog --patch "${spec}"
                             '''
                         }
                     }
