@@ -13,10 +13,6 @@ spec:
           value: ""
 ''') {
     node(POD_LABEL) {
-//         git 'https://github.com/HankJiang/blog.git'
-//         def commitHash = sh(script: 'git rev-parse --short HEAD', returnStdout: true)
-//         def imageTag = "gsxxm/blog:${commitHash}"
-
         def myRepo = checkout scm
         def commitHash = sh(script: "git rev-parse --short HEAD", returnStdout: true).trim()
         def imageTag = "gsxxm/blog:${commitHash}"
