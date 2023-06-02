@@ -13,9 +13,12 @@ spec:
           value: ""
 ''') {
     node(POD_LABEL) {
-        def gitRepo = "https://github.com/HankJiang/blog.git"
-        git 'https://github.com/HankJiang/blog.git'
-        def commitHash = sh(script: 'git rev-parse --short HEAD', returnStdout: true)
+//         git 'https://github.com/HankJiang/blog.git'
+//         def commitHash = sh(script: 'git rev-parse --short HEAD', returnStdout: true)
+//         def imageTag = "gsxxm/blog:${commitHash}"
+
+        def myRepo = checkout scm
+        def commitHash = sh(script: "git rev-parse --short HEAD", returnStdout: true).trim()
         def imageTag = "gsxxm/blog:${commitHash}"
 
         stage('构建镜像并部署') {
