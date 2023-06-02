@@ -35,7 +35,9 @@ spec:
                             docker push ${imageTag}
                         """
                         withKubeConfig([namespace: "star"]) {
-                            sh 'kubectl apply -f deployment.yaml'
+                            sh '''
+                                kubectl rollout restart deployment -f deployment.yaml
+                            '''
                         }
                     }
                 }
