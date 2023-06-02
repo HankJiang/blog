@@ -18,7 +18,6 @@ spec:
         userRemoteConfigs: [[url: 'https://github.com/jenkinsci/git-plugin.git']]])
         def gitCommit = scmVars.GIT_COMMIT
         def imageTag = "gsxxm/blog:${gitCommit}"
-        def spec = "spec:\n template:\n  spec:\n   containers:\n   - name: blog\n     image: ${imageTag}"
 
         git 'https://github.com/HankJiang/blog.git'
 
@@ -37,7 +36,7 @@ spec:
                         """
                         withKubeConfig([namespace: "star"]) {
                             sh """
-                                kubectl set image deployment/blog blog=gsxxm/blog:9f2702fd41f456662c32aa8c36969308fa060249 --record
+                                kubectl set image deployment/blog blog=${imageTag} --record
                             """
                         }
                     }
