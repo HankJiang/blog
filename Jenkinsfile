@@ -13,11 +13,16 @@ spec:
           value: ""
 ''') {
     node(POD_LABEL) {
-        git 'https://github.com/HankJiang/blog.git'
+        def gitRepo = "https://github.com/HankJiang/blog.git"
         def imageTag = "gsxxm/blog:latest"
+        def scmVars = checkout([$class: 'GitSCM', branches: [[name: 'master']],
+        userRemoteConfigs: [[url: 'https://github.com/jenkinsci/git-plugin.git']]])
+        def gitCommit = scmVars.GIT_COMMIT
+        
+        git 'https://github.com/HankJiang/blog.git'
 
-        stage('构建Docker镜像') {
-            container('构建 Docker 镜像') {
+        stage('构建镜像并部署') {
+            container('构建镜像并部署') {
                 withCredentials([[$class: 'UsernamePasswordMultiBinding',
                 credentialsId: 'dockerhub',
                 usernameVariable: 'DOCKER_HUB_USER',
@@ -29,14 +34,11 @@ spec:
                             docker tag ${imageTag} ${imageTag}
                             docker push ${imageTag}
                         """
+                        withKubeConfig([namespace: "star"]) {
+                            sh 'kubectl apply -f deployment.yaml'
+                        }
                     }
                 }
-            }
-        }
-
-        stage('部署到集群') {
-            withKubeConfig([namespace: "star"]) {
-                sh 'kubectl apply -f deployment.yaml'
             }
         }
     }
