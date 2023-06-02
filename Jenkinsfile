@@ -36,9 +36,10 @@ spec:
                             docker push ${imageTag}
                         """
                         withKubeConfig([namespace: "star"]) {
-                            sh '''
+                            sh """
+                              kubectl patch deployment blog --patch-file deployment.yaml
                               kubectl patch deployment blog --patch "${spec}"
-                            '''
+                            """
                         }
                     }
                 }
