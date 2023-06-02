@@ -36,7 +36,7 @@ spec:
                         """
                         withKubeConfig([namespace: "star"]) {
                             sh '''
-                              kubectl set image deployment.v1.apps/blog blog=${imageTag}
+                              kubectl patch deployment blog --patch '{"spec": {"template": {"spec": {"containers": [{"name": "blog","image": ${imageTag}}]}}}}'
                             '''
                         }
                     }
