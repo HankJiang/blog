@@ -36,7 +36,7 @@ spec:
                         """
                         withKubeConfig([namespace: "star"]) {
                             sh '''
-                              kubectl set image deployment/blog mycontainer=${imageTag}
+                              kubectl set image deployment/blog blog=${imageTag}
                             '''
                         }
                     }
