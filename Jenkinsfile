@@ -14,10 +14,8 @@ spec:
 ''') {
     node(POD_LABEL) {
         def gitRepo = "https://github.com/HankJiang/blog.git"
-        def scmVars = checkout([$class: 'GitSCM', branches: [[name: 'master']],
-        userRemoteConfigs: [[url: 'https://github.com/jenkinsci/git-plugin.git']]])
-        def gitCommit = scmVars.GIT_COMMIT
-        def imageTag = "gsxxm/blog:${gitCommit}"
+        def commitHash = sh(script: 'git rev-parse --short HEAD', returnStdout: true)
+        def imageTag = "gsxxm/blog:${commitHash}"
 
         git 'https://github.com/HankJiang/blog.git'
 
