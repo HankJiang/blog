@@ -4,8 +4,8 @@ categories: AnZhiYu
 tags:
   - AnZhiYu
   - Hexo
-top_img: "https://img02.anzhiy.cn/adminuploads/1/2023/04/09/6432a8a25b76d.webp!topimg"
-cover: "https://img02.anzhiy.cn/adminuploads/1/2023/04/09/6432a8a25b76d.webp!cover"
+top_img: "https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public"
+cover: "https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public"
 top_group_index: 3
 abbrlink: ce04
 date: 2023-03-31 11:55:44
