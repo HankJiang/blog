@@ -1,0 +1,44 @@
+- class_name: 世界各地夕阳与风景
+  path_name: /wordScenery
+  type: 2
+  description: 因为到不了世界各地，所以请网友们发来了各地的夕阳与风景🌇。
+  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  album_list:
+    - date: 2022/10/26 01:00:00
+      content: 湘潭的一角。
+      address: 湖南湘潭
+      from: 再吃一口就减肥
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+
+- class_name: 我的日常
+  path_name: /dailyPhoto
+  type: 1
+  description: 这里存放的是有关我自己的一些沙雕生活与有趣的事情。
+  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+  album_list:
+    - date: 2022-10-24
+      content: 老妹的画
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
