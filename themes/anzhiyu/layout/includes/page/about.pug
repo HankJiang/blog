@@ -157,117 +157,117 @@ if site.data.about
           .card-background-icon
             i.anzhiyufont.anzhiyu-icon-dice-d20
 
-      .author-content
-        - let {game_tips, game_title, game_uid, game_bg} = item.game
-        .author-content-item.game-yuanshen(style=`background: url(${game_bg}) top / cover no-repeat;`)
-          .card-content
-            .author-content-item-tips=game_tips
-            span.author-content-item-title=game_title
-            .content-bottom
-              .icon-group
-                .loading-bar(role='presentation', aria-hidden='true' style=`${game_title != "原神" ? "display: none": ""}`)
-              .tips.game-yuanshen-uid=game_uid
-        .author-content-item.comic-content
-          .card-content
-            - let {comic_tips, comic_title, comic_list} = item.comic
-            .author-content-item-tips=comic_tips
-            .author-content-item-title=comic_title
-            .comic-box
-              if comic_list
-                each i in comic_list
-                  a.comic-item(href=i.href, target="_blank", title=i.name)
-                    .comic-item-cover
-                      img(src=i.cover, alt=i.name)
+      //.author-content
+      //  - let {game_tips, game_title, game_uid, game_bg} = item.game
+      //  .author-content-item.game-yuanshen(style=`background: url(${game_bg}) top / cover no-repeat;`)
+      //    .card-content
+      //      .author-content-item-tips=game_tips
+      //      span.author-content-item-title=game_title
+      //      .content-bottom
+      //        .icon-group
+      //          .loading-bar(role='presentation', aria-hidden='true' style=`${game_title != "原神" ? "display: none": ""}`)
+      //        .tips.game-yuanshen-uid=game_uid
+      //  .author-content-item.comic-content
+      //    .card-content
+      //      - let {comic_tips, comic_title, comic_list} = item.comic
+      //      .author-content-item-tips=comic_tips
+      //      .author-content-item-title=comic_title
+      //      .comic-box
+      //        if comic_list
+      //          each i in comic_list
+      //            a.comic-item(href=i.href, target="_blank", title=i.name)
+      //              .comic-item-cover
+      //                img(src=i.cover, alt=i.name)
       
-      .author-content
-        - let {music_tips, music_title, music_link, music_bg} = item.music
-        - let {like_tips, like_title, like_bottom, like_bg} = item.like
-        .author-content-item.like-technology(style=`background: url(${like_bg}) top / cover no-repeat;`)
-          .card-content
-            .author-content-item-tips=like_tips
-            span.author-content-item-title=like_title
-            .content-bottom
-              .tips=like_bottom
-        .author-content-item.like-music(style=`background: url(${music_bg}) top / cover no-repeat;`)
-          .card-content
-            .author-content-item-tips=music_tips
-            span.author-content-item-title=music_title
-            .content-bottom
-              .tips=`跟 ${aboutName} 一起欣赏更多音乐`
-            .banner-button-group
-              a.banner-button(onclick=`pjax.loadUrl("${music_link}")`)
-                i.anzhiyufont.anzhiyu-icon-arrow-circle-right
-                |  
-                span.banner-button-text 更多推荐
+      //.author-content
+      //  - let {music_tips, music_title, music_link, music_bg} = item.music
+      //  - let {like_tips, like_title, like_bottom, like_bg} = item.like
+      //  .author-content-item.like-technology(style=`background: url(${like_bg}) top / cover no-repeat;`)
+      //    .card-content
+      //      .author-content-item-tips=like_tips
+      //      span.author-content-item-title=like_title
+      //      .content-bottom
+      //        .tips=like_bottom
+      //  .author-content-item.like-music(style=`background: url(${music_bg}) top / cover no-repeat;`)
+      //    .card-content
+      //      .author-content-item-tips=music_tips
+      //      span.author-content-item-title=music_title
+      //      .content-bottom
+      //        .tips=`跟 ${aboutName} 一起欣赏更多音乐`
+      //      .banner-button-group
+      //        a.banner-button(onclick=`pjax.loadUrl("${music_link}")`)
+      //          i.anzhiyufont.anzhiyu-icon-arrow-circle-right
+      //          |
+      //          span.banner-button-text 更多推荐
 
       if item.extra
         include ../anzhiyu/about-extra.pug
         
-      - let rawData = item.reward_list
-      if rawData
-        - let sortedByDate = rawData.slice().sort((a, b) => new Date(b.datatime) - new Date(a.datatime));
-        .author-content
-          .author-content-item.single.reward#about-reward
-            .author-content-item-tips 致谢
-            span.author-content-item-title 赞赏名单
-            .author-content-item-description 感谢因为有你们，让我更加有创作的动力。
-              .reward-list-all
-                - let reward_list_amount = item.reward_list.sort((a,b)=>b.amount -  a.amount)
-                each item, index in reward_list_amount
-                  .reward-list-item
-                    .reward-list-item-name=item.name
-                    .reward-list-bottom-group
-                      if item.amount >= 50
-                        .reward-list-item-money(style='background:var(--anzhiyu-yellow)')=`¥${item.amount}`
-                      else 
-                        .reward-list-item-money=`¥${item.amount + (item.suffix ? item.suffix : "")}`
-                      .datatime.reward-list-item-time(datatime=item.datatime)=new Date(item.datatime).toISOString().slice(0, -14)
-              .reward-list-updateDate
-                | 最新更新时间： 
-                time.datatime.reward-list-updateDate-time(datatime=sortedByDate[0].datatime)=new Date(sortedByDate[0].datatime).toISOString().slice(0, -14)
-            .about-reward
-              #con
-              #TA-con(onclick="anzhiyu.rewardShowConsole()")
-                #text-con
-                  #linght
-                  #TA 为TA充电
-              #tube-con
-                svg(viewBox='0 0 1028 385', fill='none', xmlns='http://www.w3.org/2000/svg')
-                  path(d='M1 77H234.226L307.006 24H790', stroke='#e5e9ef', stroke-width='20')
-                  path(d='M0 140H233.035L329.72 71H1028', stroke='#e5e9ef', stroke-width='20')
-                  path(d='M1 255H234.226L307.006 307H790', stroke='#e5e9ef', stroke-width='20')
-                  path(d='M0 305H233.035L329.72 375H1028', stroke='#e5e9ef', stroke-width='20')
-                  rect(y='186', width='236', height='24', fill='#e5e9ef')
-                  ellipse(cx='790', cy='25.5', rx='25', ry='25.5', fill='#e5e9ef')
-                  circle(r='14', transform='matrix(1 0 0 -1 790 25)', fill='white')
-                  ellipse(cx='790', cy='307.5', rx='25', ry='25.5', fill='#e5e9ef')
-                  circle(r='14', transform='matrix(1 0 0 -1 790 308)', fill='white')
-                #mask
-                  svg(viewBox='0 0 1028 385', fill='none', xmlns='http://www.w3.org/2000/svg')
-                    path(d='M1 77H234.226L307.006 24H790', stroke='#f25d8e', stroke-width='20')
-                    path(d='M0 140H233.035L329.72 71H1028', stroke='#f25d8e', stroke-width='20')
-                    path(d='M1 255H234.226L307.006 307H790', stroke='#f25d8e', stroke-width='20')
-                    path(d='M0 305H233.035L329.72 375H1028', stroke='#f25d8e', stroke-width='20')
-                    rect(y='186', width='236', height='24', fill='#f25d8e')
-                    ellipse(cx='790', cy='25.5', rx='25', ry='25.5', fill='#f25d8e')
-                    circle(r='14', transform='matrix(1 0 0 -1 790 25)', fill='white')
-                    ellipse(cx='790', cy='307.5', rx='25', ry='25.5', fill='#f25d8e')
-                    circle(r='14', transform='matrix(1 0 0 -1 790 308)', fill='white')
-                #orange-mask
-                  svg(viewBox='0 0 1028 385', fill='none', xmlns='http://www.w3.org/2000/svg')
-                    path(d='M1 77H234.226L307.006 24H790', stroke='#ffd52b', stroke-width='20')
-                    path(d='M0 140H233.035L329.72 71H1028', stroke='#ffd52b', stroke-width='20')
-                    path(d='M1 255H234.226L307.006 307H790', stroke='#ffd52b', stroke-width='20')
-                    path(d='M0 305H233.035L329.72 375H1028', stroke='#ffd52b', stroke-width='20')
-                    rect(y='186', width='236', height='24', fill='#ffd52b')
-                    ellipse(cx='790', cy='25.5', rx='25', ry='25.5', fill='#ffd52b')
-                    circle(r='14', transform='matrix(1 0 0 -1 790 25)', fill='white')
-                    ellipse(cx='790', cy='307.5', rx='25', ry='25.5', fill='#ffd52b')
-                    circle(r='14', transform='matrix(1 0 0 -1 790 308)', fill='white')
-                p#people
-                  | 共
-                  b=item.reward_list.length
-                  | 人
+      // - let rawData = item.reward_list
+      // if rawData
+      //   - let sortedByDate = rawData.slice().sort((a, b) => new Date(b.datatime) - new Date(a.datatime));
+      //   .author-content
+      //     .author-content-item.single.reward#about-reward
+      //       .author-content-item-tips 致谢
+      //       span.author-content-item-title 赞赏名单
+      //       .author-content-item-description 感谢因为有你们，让我更加有创作的动力。
+      //         .reward-list-all
+      //           - let reward_list_amount = item.reward_list.sort((a,b)=>b.amount -  a.amount)
+      //           each item, index in reward_list_amount
+      //             .reward-list-item
+      //               .reward-list-item-name=item.name
+      //               .reward-list-bottom-group
+      //                 if item.amount >= 50
+      //                   .reward-list-item-money(style='background:var(--anzhiyu-yellow)')=`¥${item.amount}`
+      //                 else
+      //                   .reward-list-item-money=`¥${item.amount + (item.suffix ? item.suffix : "")}`
+      //                 .datatime.reward-list-item-time(datatime=item.datatime)=new Date(item.datatime).toISOString().slice(0, -14)
+      //         .reward-list-updateDate
+      //           | 最新更新时间：
+      //           time.datatime.reward-list-updateDate-time(datatime=sortedByDate[0].datatime)=new Date(sortedByDate[0].datatime).toISOString().slice(0, -14)
+      //       .about-reward
+      //         #con
+      //         #TA-con(onclick="anzhiyu.rewardShowConsole()")
+      //           #text-con
+      //             #linght
+      //             #TA 为TA充电
+      //         #tube-con
+      //           svg(viewBox='0 0 1028 385', fill='none', xmlns='http://www.w3.org/2000/svg')
+      //             path(d='M1 77H234.226L307.006 24H790', stroke='#e5e9ef', stroke-width='20')
+      //             path(d='M0 140H233.035L329.72 71H1028', stroke='#e5e9ef', stroke-width='20')
+      //             path(d='M1 255H234.226L307.006 307H790', stroke='#e5e9ef', stroke-width='20')
+      //             path(d='M0 305H233.035L329.72 375H1028', stroke='#e5e9ef', stroke-width='20')
+      //             rect(y='186', width='236', height='24', fill='#e5e9ef')
+      //             ellipse(cx='790', cy='25.5', rx='25', ry='25.5', fill='#e5e9ef')
+      //             circle(r='14', transform='matrix(1 0 0 -1 790 25)', fill='white')
+      //             ellipse(cx='790', cy='307.5', rx='25', ry='25.5', fill='#e5e9ef')
+      //             circle(r='14', transform='matrix(1 0 0 -1 790 308)', fill='white')
+      //           #mask
+      //             svg(viewBox='0 0 1028 385', fill='none', xmlns='http://www.w3.org/2000/svg')
+      //               path(d='M1 77H234.226L307.006 24H790', stroke='#f25d8e', stroke-width='20')
+      //               path(d='M0 140H233.035L329.72 71H1028', stroke='#f25d8e', stroke-width='20')
+      //               path(d='M1 255H234.226L307.006 307H790', stroke='#f25d8e', stroke-width='20')
+      //               path(d='M0 305H233.035L329.72 375H1028', stroke='#f25d8e', stroke-width='20')
+      //               rect(y='186', width='236', height='24', fill='#f25d8e')
+      //               ellipse(cx='790', cy='25.5', rx='25', ry='25.5', fill='#f25d8e')
+      //               circle(r='14', transform='matrix(1 0 0 -1 790 25)', fill='white')
+      //               ellipse(cx='790', cy='307.5', rx='25', ry='25.5', fill='#f25d8e')
+      //               circle(r='14', transform='matrix(1 0 0 -1 790 308)', fill='white')
+      //           #orange-mask
+      //             svg(viewBox='0 0 1028 385', fill='none', xmlns='http://www.w3.org/2000/svg')
+      //               path(d='M1 77H234.226L307.006 24H790', stroke='#ffd52b', stroke-width='20')
+      //               path(d='M0 140H233.035L329.72 71H1028', stroke='#ffd52b', stroke-width='20')
+      //               path(d='M1 255H234.226L307.006 307H790', stroke='#ffd52b', stroke-width='20')
+      //               path(d='M0 305H233.035L329.72 375H1028', stroke='#ffd52b', stroke-width='20')
+      //               rect(y='186', width='236', height='24', fill='#ffd52b')
+      //               ellipse(cx='790', cy='25.5', rx='25', ry='25.5', fill='#ffd52b')
+      //               circle(r='14', transform='matrix(1 0 0 -1 790 25)', fill='white')
+      //               ellipse(cx='790', cy='307.5', rx='25', ry='25.5', fill='#ffd52b')
+      //               circle(r='14', transform='matrix(1 0 0 -1 790 308)', fill='white')
+      //           p#people
+      //             | 共
+      //             b=item.reward_list.length
+      //             | 人
 
 
     script(src=url_for(theme.asset.countup_js))
