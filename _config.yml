@@ -3,23 +3,41 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: gsxxm
-subtitle: "Keep loving, Keep living"
-description: "gsxxm的博客，这是一个分享前端知识与代码设计生活的博客，生活明朗,万物可爱。落霞与孤鹜齐飞，秋水共长天一色。"
-keywords: gsxxm,gsxxm blog,gsxxm博客,gsxxm的博客,博客,Blog,gsxxm,gsxxm`Blog,hexo,GSXXM
-author: gsxxm
-language: zh-CN
-timezone:
-email: jianghan.ah@foxmail.com
+title: Butterfly
+subtitle: A Simple and Card UI Design theme for Hexo
+description: A Simple and Card UI Design theme for Hexo
+keywords: hexo,butterfly,jerryc,demo,hexo-butterfly,hexo-theme-butterfly
+author: Jerry
+language: zh-TW
+timezone: Asia/Hong_Kong
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://gsxxm.xyz
-permalink: posts/:abbrlink.html
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://butterfly.js.org
+root: /
+# permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink/
+
+# abbrlink config
+abbrlink:
+  alg: crc32 #support crc16(default) and crc32
+  rep: hex #support dec(default) and hex
+  drafts: false #(true)Process draft,(false)Do not process draft. false(default)
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+    enable: false #true(default)
+    depth: #3(default)
+    over_write: false
+  auto_title: false #enable auto title, it can auto fill the title by path
+  auto_date: false #enable auto date, it can auto fill the date by time today
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
+
+
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -38,7 +56,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude:
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -73,7 +91,7 @@ tag_map:
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
+meta_generator: false
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -82,7 +100,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+# updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -98,66 +116,70 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: anzhiyu
+theme: butterfly
+# theme: butterfly-stable
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
+## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:jerryc127/butterfly-demo.git
+  branch: master
+  # other deployer
 
-# 文章链接转数字或字母：https://github.com/rozbo/hexo-abbrlink
-abbrlink:
-  #算法： crc16(default) and crc32
-  alg: crc16
-  #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
-  rep: hex
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
 
-# algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
-algolia:
-  appId: "3KEJ2H9PCD"
-  apiKey: "65f4d5e5f5fd3c48ff73e364187ca38d"
-  adminApiKey: "abd4bc4343ea936d1335db3f88b4066d"
-  chunkSize: 5000
-  indexName: "hexo"
-  fields:
-    - content:strip:truncate,0,200
-    - excerpt:strip
-    - gallery
-    - permalink
-    - photos
-    - slug
-    - tags
-    - title
+# aplayer:
+#   meting: true
+#   asset_inject: false
 
-# 追番插件
-# https://github.com/HCLonely/hexo-bilibili-bangumi
-bangumi: # 追番设置
+# encrypt: # hexo-blog-encrypt
+#   abstract: Here's something encrypted, password is required to continue reading.
+#   message: Hey, password is required here.
+#   template: <div id="hexo-blog-encrypt" data-wpm="{{hbeWrongPassMessage}}" data-whm="{{hbeWrongHashMessage}}"><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="{{hbeMessage}}" /><label>{{hbeMessage}}</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="{{hbeHmacDigest}}">{{hbeEncryptedData}}</script></div>
+#   wrong_pass_message: Oh, this is an invalid password. Check and try again, please.
+#   wrong_hash_message: Oh, these decrypted content cannot be verified, but you can still have a look.
+
+# kramed:
+#   gfm: true
+#   pedantic: false
+#   sanitize: false
+#   tables: true
+#   breaks: true
+#   smartLists: true
+#   smartypants: true
+
+markdown_it_plus:
+  plugins:
+    - plugin:
+      name: '@neilsustc/markdown-it-katex'
+      enable: true
+      options:
+        strict: false
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+
+nofollow:
   enable: true
-  source: bili
-  path:
-  vmid: 372204786
-  title: "追番列表"
-  quote: "生命不息，追番不止！"
-  show: 1
-  lazyload: false
-  loading:
-  showMyComment: false
-  pagination: false
-  metaColor:
-  color:
-  webp:
-  progress:
-  extraOrder:
-  proxy:
-    host: "代理host"
-    port: "代理端口"
-  extra_options:
-    top_img: false
-    lazyload:
-      enable: false
+  field: site
+  exclude:
 
-# APlayer
-# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
-aplayer:
-  meting: true
-  asset_inject: false
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+
+marked:
+  smartypants: false
+  descriptionLists: false
+
+# server:
+#   port: 3127
