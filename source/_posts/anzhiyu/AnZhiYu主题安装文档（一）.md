@@ -1,7 +1,7 @@
 ---
 title: AnZhiYu主题安装文档（一）
 highlight_shrink: false
-categories: AnZhiYu
+categories: Tech
 tags:
   - AnZhiYu
   - Hexo
@@ -422,7 +422,7 @@ essay:
       descr: 快速、简单且强大的网站框架
     - name: anzhiyu主题
       link: https://anzhiy.cn/
-      avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      avatar: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
 
@@ -432,7 +432,7 @@ essay:
     - name: 安知鱼
       hundredSuffix: ""
       link: https://anzhiy.cn/
-      avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      avatar: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
 
@@ -443,7 +443,7 @@ essay:
     - name: 安知鱼
       hundredSuffix: ""
       link: https://anzhiy.cn/
-      avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      avatar: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
       descr: 生活明朗，万物可爱
 ```
 

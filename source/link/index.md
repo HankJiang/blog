@@ -15,7 +15,7 @@ top_img: false
 ```yml
 - name: 安知鱼`Blog
   link: https://anzhiy.cn/
-  avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+  avatar: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
   descr: 生活明朗，万物可爱
   siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
 ```
@@ -29,7 +29,7 @@ top_img: false
   "title": "安知鱼`Blog",
   "screenshot": "https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cnp.jpg",
   "url": "https://anzhiy.cn/",
-  "avatar": "https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg",
+  "avatar": "https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public",
   "description": "生活明朗，万物可爱",
   "keywords": "安知鱼"
 }
@@ -44,7 +44,7 @@ top_img: false
 | 站点名称   | 安知鱼`Blog                                                               |
 | 站点截图   | https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg |
 | 站点链接   | https://anzhiy.cn/                                                        |
-| 站长头像   | https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg       |
+| 站长头像   | https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public       |
 | 站点描述   | 生活明朗，万物可爱                                                        |
 | 站点关键词 | 安知鱼, 个人博客， 生活                                                   |
 
@@ -57,7 +57,7 @@ top_img: false
     title: "安知鱼",
     intro: "生活明朗，万物可爱",
     link: "https://anzhiy.cn/",
-    image: "https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg",
+    image: "https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public",
   }
 ```
 
@@ -68,7 +68,7 @@ top_img: false
 ```yml
 {
   "title": "安知鱼",
-  "avatar": "https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg",
+  "avatar": "https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public",
   "screenshot": "https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg",
   "url": "https://anzhiy.cn/",
   "description": "生活明朗，万物可爱",
@@ -121,7 +121,7 @@ a(href='https://anzhiy.cn/' rel="external nofollow") 安知鱼-生活明朗
 1. 我的名称：安知鱼
 2. 网站地址：https://anzhiy.cn/
 3. 描述：生活明朗，万物可爱
-4. 头像：https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+4. 头像：https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
 5. 站点截图：https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
 
 参照以下格式留言 📋 即可。
@@ -139,7 +139,7 @@ a(href='https://anzhiy.cn/' rel="external nofollow") 安知鱼-生活明朗
 ```yml
 昵称：安知鱼
 网站地址：https://anzhiy.cn/
-头像图片url：https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+头像图片url：https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
 描述：生活明朗，万物可爱
 站点截图:(可选)：https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
 ```

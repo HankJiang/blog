@@ -1,24 +1,24 @@
 menu:
   文章:
-    隧道: /archives/ || anzhiyu-icon-box-archive
+    归档: /archives/ || anzhiyu-icon-box-archive
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
 
-  友链:
-    友人帐: /link/ || anzhiyu-icon-link
-    朋友圈: /fcircle/ || anzhiyu-icon-artstation
-    留言板: /comments/ || anzhiyu-icon-envelope
+#  友链:
+#    友人帐: /link/ || anzhiyu-icon-link
+#    朋友圈: /fcircle/ || anzhiyu-icon-artstation
+#    留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
     音乐馆: /music/ || anzhiyu-icon-music
-    追番页: /bangumis/ || anzhiyu-icon-bilibili
+#    追番页: /bangumis/ || anzhiyu-icon-bilibili
     相册集: /album/ || anzhiyu-icon-images
     小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
-    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+#    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+#    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
@@ -114,7 +114,7 @@ favicon: /img/favicon.png
 
 # Avatar (头像)
 avatar:
-  img: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+  img: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
   effect: false
 
 # Disable all banner image
@@ -294,7 +294,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Valine/Waline/Twikoo/Artalk
-  use: Twikoo # Twikoo/Waline
+  use:  # Twikoo/Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -402,7 +402,7 @@ footer:
   custom_text:
   runtime:
     enable: true
-    launch_time: 04/01/2021 00:00:00 # 网站上线时间
+    launch_time: 06/01/2023 00:00:00 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
@@ -416,9 +416,6 @@ footer:
     - link: https://anzhiy.cn/
       shields: https://pan.anzhiy.cn/d/anzhiyu/svg/Theme-AnZhiYu-2E67D3.svg
       message: 本站使用AnZhiYu主题
-    - link: https://www.dogecloud.com/
-      shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
-      message: 本站使用多吉云为静态资源提供CDN加速
     - link: https://github.com/
       shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
       message: 本站项目由Github托管
@@ -655,7 +652,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: # 自定义头像
+  avatar: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
 
 # aside (侧边栏)
 # --------------------------------------
@@ -683,7 +680,7 @@ aside:
     enable: false
     content: 欢迎来看我的博客鸭~
   card_weixin:
-    enable: true
+    enable: false
     face: https://img02.anzhiy.cn/adminuploads/1/2022/09/11/631ddb7c9b250.png
     backFace: https://img02.anzhiy.cn/adminuploads/1/2022/09/11/631ddeb0900b7.png
   card_recent_post:
@@ -841,7 +838,7 @@ aplayerInject:
 # position 弹窗位置
 # 可选 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: true
+  enable: false
   position: top-center
   bg_light: "#3b70fc" # The background color of Toast Notification in light mode
   bg_dark: "#1f1f1f" # The background color of Toast Notification in dark mode
@@ -969,8 +966,8 @@ LA:
 # 标签卖萌
 diytitle:
   enable: true
-  leaveTitle: w(ﾟДﾟ)w 不要走！再看看嘛！
-  backTitle: ♪(^∇^*)欢迎肥来！
+  leaveTitle: 施工中...
+  backTitle: 施工中...
 
 # 留言弹幕配置
 comment_barrage_config:
@@ -998,7 +995,7 @@ visitorMail:
 
 # 即刻页面配置
 essay:
-  enable: true
+  enable: false
   top_background: https://img02.anzhiy.cn/adminuploads/1/2022/08/21/630249e2df20f.jpg
 
 # ptool 文章底部工具

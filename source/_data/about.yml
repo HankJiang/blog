@@ -1,17 +1,16 @@
 - class_name: 关于页
   subtitle: 生活明朗，万物可爱✨
-  avatarImg: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
-  name: 陈志伟
-  description: 是一名 前端工程师、学生、独立开发者、博主
+  avatarImg: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
+  name: 江汉
+  description: 是一名 web工程师、博主
   aboutsiteTips:
-    tips: 追求
-    title1: 源于
-    title2: 热爱而去 感受
+    tips: 生活
+    title1: 需要
+    title2: 好奇 而去 探寻
     word:
-      - 学习
-      - 生活
-      - 程序
-      - 体验
+      - 观察
+      - 经历
+      - 感受
   helloAbout: Hello there!
   skillsTips:
     tips: 技能
@@ -20,7 +19,7 @@
     tips: 生涯
     title: 无限进步
     item:
-      - EDU,软件工程专业
+      - EDU,互联网
     img: https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330e9bcc39cc.png
   statistic:
     link: /archives
@@ -28,30 +27,30 @@
     cover: https://img02.anzhiy.cn/adminuploads/1/2022/09/23/632d634f8376d.jpg
   map:
     title: 我现在住在
-    StrengthenTitle: 中国，长沙市
-    background: https://img02.anzhiy.cn/adminuploads/1/2022/09/24/632e6f48981d8.jpg
-    backgroundDark: https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330ebf1f3e65.jpg
+    StrengthenTitle: 中国，上海市
+    background: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b313d2c4-0e53-4087-ce9d-ceeba3e22f00/public
+    backgroundDark: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b313d2c4-0e53-4087-ce9d-ceeba3e22f00/public
   selfInfo:
     selfInfoTips1: 生于
-    selfInfoContentYear: 2002
-    selfInfoTips2: 湖南信息学院
-    selfInfoContent2: 软件工程
+    selfInfoContentYear: 1994
+    selfInfoTips2: 皖西学院
+    selfInfoContent2: 电气工程
     selfInfoTips3: 现在职业
-    selfInfoContent3: 大三学生👨‍🎓
+    selfInfoContent3: 修仙🔭
   personalities:
-    author_name: 执政官
-    personality_type: ESFJ-A
-    photo_url: https://img02.anzhiy.cn/adminuploads/1/2022/09/24/632e9643611ec.jpg
-    personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
-    name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
+    author_name: 逻辑学家
+    personality_type: INTP-A
+    photo_url: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/335402c0-e2e8-43cf-d11a-77189ca00b00/public
+    personality_img: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f1f4f0d0-51bb-42ef-520e-582852e51800/public
+    name_url: https://www.16personalities.com/ch/intp-%E4%BA%BA%E6%A0%BC
   maxim:
     maxim_tips: 座右铭
-    maxim_top: 生活明朗，
-    maxim_bottom: 万物可爱。
+    maxim_top: 🚴‍ Keep living
+    maxim_bottom: Keep loving
   buff:
     buff_tips: 特长
-    buff_top: 脑回路新奇的 酸菜鱼
-    buff_bottom: 二次元指数 MAX
+    buff_top: 哈哈 哈哈哈 哈哈哈哈
+    buff_bottom: To Be Discover
   game:
     game_tips: 爱好游戏
     game_title: 原神
