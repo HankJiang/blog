@@ -73,7 +73,7 @@ if site.data.about
                 each i in careers.item
                   .name=i
             img.author-content-img.no-lightbox(alt=careers.tips, src=url_for(careers.img) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'`)
-      
+
       .author-content
         if theme.LA.enable
           - let cover = item.statistic.cover

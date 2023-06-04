@@ -16,11 +16,11 @@
     tips: 技能
     title: 开启创造力
   careers:
-    tips: 生涯
-    title: 无限进步
+    tips:
+    title:
     item:
-      - EDU,互联网
-    img: https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330e9bcc39cc.png
+      -
+    img:
   statistic:
     link: /archives
     text: 文章隧道
