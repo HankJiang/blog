@@ -1,9 +1,8 @@
 ---
-title: AnZhiYu主题安装文档（一）
+title: 文章示例-AnZhiYu主题安装文档
 highlight_shrink: false
-categories: Tech
+categories: 未分类
 tags:
-  - AnZhiYu
   - Hexo
 abbrlink: 220c
 date: 2023-03-26 18:55:44
