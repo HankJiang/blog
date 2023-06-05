@@ -1,8 +1,8 @@
 - class_name: 关于页
-  subtitle: 生活明朗，万物可爱✨
+  subtitle: 对待生命不妨大胆一点，因为我们始终要失去它。
   avatarImg: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
   name: 江汉
-  description: 是一名 web工程师、博主
+  description: 是一名前后端开发，现灵活修仙⚡ 。
   aboutsiteTips:
     tips: 生活
     title1: 需要
@@ -36,7 +36,7 @@
     selfInfoTips2: 皖西学院
     selfInfoContent2: 电气工程
     selfInfoTips3: 现在职业
-    selfInfoContent3: 修仙🔭
+    selfInfoContent3: 筑基修士
   personalities:
     author_name: 逻辑学家
     personality_type: INTP-A
@@ -44,9 +44,9 @@
     personality_img: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f1f4f0d0-51bb-42ef-520e-582852e51800/public
     name_url: https://www.16personalities.com/ch/intp-%E4%BA%BA%E6%A0%BC
   maxim:
-    maxim_tips: 座右铭
-    maxim_top: 🚴‍ Keep living
-    maxim_bottom: Keep loving
+    maxim_tips: 公益广告
+    maxim_top: Keep loving, Keep living.
+    maxim_bottom: 🚴 保持热爱，奔赴山海。
   buff:
     buff_tips: 特长
     buff_top: 哈哈 哈哈哈 哈哈哈哈

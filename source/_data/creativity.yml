@@ -1,50 +1,41 @@
 - class_name: 开启创造力
   creativity_list:
-    - name: Java
-      color: "#fff"
-      icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633005bf0fd1e.jpg
     - name: Docker
       color: "#57b6e6"
-      icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647df7fa.png
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/048b9fd7-628d-4e8b-f517-278b1cff7a00/public
     - name: Photoshop
       color: "#4082c3"
-      icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647e1f10.png
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b83990ae-b49f-4c50-2190-3c49469c2700/public
     - name: Node
       color: "#333"
-      icon: https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/svg/node-logo.svg
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/df6a9582-6bc6-4ca5-e7ba-e7ea2d9cac00/public
     - name: Webpack
       color: "#2e3a41"
-      icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/26/6330ff27e5c9b.png
-    - name: Pinia
-      color: "#fff"
-      icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/pinia-logo.svg
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8f1ec54f-a83f-4800-56d4-0d4ffa6b1500/public
     - name: Python
       color: "#fff"
-      icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/25/63300647dea51.png
-    - name: Vite
-      color: "#937df7"
-      icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/vite-logo.svg
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/4fa8aab8-cc35-4eb8-365d-d43ab3c1bf00/public
     - name: Flutter
       color: "#4499e4"
-      icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633004063ff15.png
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/23a0f304-d9f4-46a0-1b59-f94eeb1b7400/public
     - name: Vue
       color: "#b8f0ae"
-      icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633001374747b.png
-    - name: React
-      color: "#222"
-      icon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c7593506-c486-49db-c230-6f3f46210500/public
     - name: CSS3
       color: "#2c51db"
-      icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006cc55e07.png
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7943e6b5-5fba-46a8-09f6-c203c9340600/public
     - name: JS
       color: "#f7cb4f"
-      icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006eee047b.png
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/89c9d74f-7398-4c57-e911-840e9d842100/public
     - name: HTML
       color: "#e9572b"
-      icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633006f9ab27d.png
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a80ed43f-2da3-4ed7-d88a-24a2e7f5d600/public
     - name: Git
       color: "#df5b40"
-      icon: https://img02.anzhiy.cn/adminuploads/1/2023/04/11/6434a635e9726.webp
-    - name: Apifox
-      color: "#e65164"
-      icon: https://img02.anzhiy.cn/adminuploads/1/2022/09/25/633007087a4dc.webp
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/77deabcd-13b5-4b8f-2664-a769734cea00/public
+    - name: Ruby
+      color: "#FFFFFF"
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/57b432f1-4c41-4776-1da1-48ccac5c4b00/public
+    - name: Kubernetes
+      color: "#FFFFFF"
+      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/32785aff-6830-4f93-53ad-c5b24c314000/public

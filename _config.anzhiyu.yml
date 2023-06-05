@@ -718,7 +718,7 @@ aside:
   card_author:
     enable: true
     type: 2 # 1为使用头像card 2为不使用头像card
-    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div>
+    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">希望你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div>
     button:
       enable: true
       icon: anzhiyu-icon-arrow-circle-right
@@ -953,24 +953,24 @@ envelope_comment:
 
 # 首页顶部相关配置
 home_top:
-  enable: true # 开关
+  enable: true
   timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱。
-  siteText: ANZHIY.CN
+  title: 往不可谏
+  subTitle: 来犹可追
+  siteText: GSXXM.XYZ
   category:
-    - name: 前端
-      path: /categories/anzhiyu/
+    - name: 技术
+      path: /categories/技术/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 大学
-      path: /categories/anzhiyu/
+    - name: 随笔
+      path: /categories/随笔/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
-    - name: 生活
-      path: /categories/anzhiyu/
+    - name: 游记
+      path: /categories/游记/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
@@ -981,10 +981,10 @@ home_top:
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
     swiper_init: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper_init.js # swiper初始化方法
   banner:
-    tips: 新品主题
-    title: Theme-AnZhiYu
+    tips: 黄金C位·等你来占
+    title: 👉 广告位火热招租中！！！
     image: https://img02.anzhiy.cn/adminuploads/1/2023/03/27/64215d46a1ca6.webp
-    link: https://anzhiy.cn/posts/220c.html
+    link: https://gsxxm.xyz
 
 # 朋友圈配置
 friends_vue:
