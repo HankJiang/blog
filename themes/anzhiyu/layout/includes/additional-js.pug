@@ -28,7 +28,8 @@ div
   //- 黑色模式粒子效果canvas
   if theme.universe.enable
     canvas(id="universe")
-    script(async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js")
+    //script(async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js")
+    script(src=url_for(theme.asset.dark_bg))
 
   //- 控制台打印信息
   if theme.console.enable

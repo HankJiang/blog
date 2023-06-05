@@ -99,7 +99,8 @@ hexo.extend.filter.register("before_generate", () => {
       translate: 'js/tw_cn.js',
       local_search: 'js/search/local-search.js',
       algolia_js: 'js/search/algolia.js',
-      main_css: 'css/index.css'
+      main_css: 'css/index.css',
+      dark_bg: 'js/dark_bg.js',
     },
     createCDNLink(thirdPartySrc, CDN.third_party_provider),
     deleteNullValue(CDN.option)
