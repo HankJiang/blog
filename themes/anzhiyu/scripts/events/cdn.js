@@ -91,7 +91,16 @@ hexo.extend.filter.register("before_generate", () => {
   };
 
   themeConfig.asset = Object.assign(
-    createCDNLink(internalSrc, CDN.internal_provider, "internal"),
+    // createCDNLink(internalSrc, CDN.internal_provider, "internal"),
+    // 使用本地文件
+    {
+      main: 'js/main.js',
+      utils: 'js/utils.js',
+      translate: 'js/tw_cn.js',
+      local_search: 'js/search/local-search.js',
+      algolia_js: 'js/search/algolia.js',
+      main_css: 'css/index.css'
+    },
     createCDNLink(thirdPartySrc, CDN.third_party_provider),
     deleteNullValue(CDN.option)
   );
