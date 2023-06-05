@@ -1,44 +1,212 @@
-- class_name: 世界各地夕阳与风景
-  path_name: /wordScenery
-  type: 2
-  description: 因为到不了世界各地，所以请网友们发来了各地的夕阳与风景🌇。
-  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+- class_name: 我的日常
+  path_name: /album-pages/daily
+  type: 1
+  description: 这里存放的是日常生活中遇到的有趣的事情。
+  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/05968dc4-95fd-45a6-3f61-1cb82c24f300/public
+  album_list:
+    - date: 2022-10-24
+      content: 我的日常
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/05968dc4-95fd-45a6-3f61-1cb82c24f300/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/388ab6ad-baec-4ed5-e87b-52149bf3dc00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/47875d8b-74de-4eea-9647-ef2643330d00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8c1aef24-6d45-46a3-dcfd-6133f6fa5100/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c73ef369-67a2-4d82-ece8-c66e0d1ca400/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e9c1ae13-2452-4e02-719c-5916aeb27800/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/0fbc5185-60c8-43c7-7402-f04b867e7500/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b5af5968-ccd6-402b-8a63-53fe7c586300/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/18e3e51c-d112-414d-2f85-6373c477a600/public
+    - date: 2022-10-24
+      content: 我的日常
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/87b4cd5c-38fc-4e00-c7e6-c94420b05200/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/1253c19d-63cb-463c-b583-a8476aa25400/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a6a5ef46-2c76-4f9c-99f0-78fb5afc1900/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/3d3b342b-7d3f-4436-cbe6-481445083b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/78f10cfc-f84b-4e64-9ea8-fcef8b521d00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/9a8b933f-f176-434e-1168-80d0a10cf700/public
+    - date: 2022-10-24
+      content: 我的日常
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e00e9d9-9ab4-4971-3d4a-3f6b533de400/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c3a05536-d504-4951-7284-0d3e44f6c300/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/be2b4e40-4b51-4a23-36dd-c7f3fcacaf00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b85b211d-237d-49af-33eb-cee95c384b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/92e88b80-33ec-4b26-86cd-56261a23df00/public
+    - date: 2022-10-24
+      content: 我的日常
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e00e9d9-9ab4-4971-3d4a-3f6b533de400/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c3a05536-d504-4951-7284-0d3e44f6c300/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/be2b4e40-4b51-4a23-36dd-c7f3fcacaf00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b85b211d-237d-49af-33eb-cee95c384b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/92e88b80-33ec-4b26-86cd-56261a23df00/public
+
+- class_name: 福建
+  path_name: /album-pages/fujian
+  type: 1
+  description: 旅行足迹🚄
+  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
   rowHeight: 220
   limit: 10
   lazyload: true
   btnLazyload: false
   url: false
   album_list:
-    - date: 2022/10/26 01:00:00
-      content: 湘潭的一角。
-      address: 湖南湘潭
-      from: 再吃一口就减肥
+    - date: 2023/04/14 00:00:00
+      content:
+      address: 福建东山
+      from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/05968dc4-95fd-45a6-3f61-1cb82c24f300/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/388ab6ad-baec-4ed5-e87b-52149bf3dc00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/47875d8b-74de-4eea-9647-ef2643330d00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8c1aef24-6d45-46a3-dcfd-6133f6fa5100/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c73ef369-67a2-4d82-ece8-c66e0d1ca400/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e9c1ae13-2452-4e02-719c-5916aeb27800/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/0fbc5185-60c8-43c7-7402-f04b867e7500/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b5af5968-ccd6-402b-8a63-53fe7c586300/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/18e3e51c-d112-414d-2f85-6373c477a600/public
+    - date: 2023/04/16 00:00:00
+      content:
+      address: 福建南靖
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/87b4cd5c-38fc-4e00-c7e6-c94420b05200/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/1253c19d-63cb-463c-b583-a8476aa25400/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a6a5ef46-2c76-4f9c-99f0-78fb5afc1900/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/3d3b342b-7d3f-4436-cbe6-481445083b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/78f10cfc-f84b-4e64-9ea8-fcef8b521d00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/9a8b933f-f176-434e-1168-80d0a10cf700/public
+    - date: 2023/04/17 00:00:00
+      content:
+      address: 福建厦门
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e00e9d9-9ab4-4971-3d4a-3f6b533de400/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c3a05536-d504-4951-7284-0d3e44f6c300/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/be2b4e40-4b51-4a23-36dd-c7f3fcacaf00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b85b211d-237d-49af-33eb-cee95c384b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/92e88b80-33ec-4b26-86cd-56261a23df00/public
 
-- class_name: 我的日常
-  path_name: /dailyPhoto
+- class_name: 江苏
+  path_name: /album-pages/jiangsu
   type: 1
-  description: 这里存放的是有关我自己的一些沙雕生活与有趣的事情。
-  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+  description: 旅行足迹🚄
+  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
   album_list:
-    - date: 2022-10-24
-      content: 老妹的画
+    - date: 2023/04/14 00:00:00
+      content:
+      address: 福建东山
+      from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a0d0723b-cb40-4e4c-31bc-7f5b89ea6b00/public
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
+    - date: 2023/04/16 00:00:00
+      content:
+      address: 福建南靖
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/87b4cd5c-38fc-4e00-c7e6-c94420b05200/public
+    - date: 2023/04/17 00:00:00
+      content:
+      address: 福建厦门
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e00e9d9-9ab4-4971-3d4a-3f6b533de400/public
+
+- class_name: 浙江
+  path_name: /album-pages/zhejiang
+  type: 1
+  description: 旅行足迹🚄
+  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  album_list:
+    - date: 2023/04/14 00:00:00
+      content:
+      address: 福建东山
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
+    - date: 2023/04/16 00:00:00
+      content:
+      address: 福建南靖
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/87b4cd5c-38fc-4e00-c7e6-c94420b05200/public
+    - date: 2023/04/17 00:00:00
+      content:
+      address: 福建厦门
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e00e9d9-9ab4-4971-3d4a-3f6b533de400/public
+
+- class_name: 四川
+  path_name: /album-pages/sichuan
+  type: 1
+  description: 旅行足迹🚄
+  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  album_list:
+    - date: 2023/04/14 00:00:00
+      content:
+      address: 福建东山
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
+    - date: 2023/04/16 00:00:00
+      content:
+      address: 福建南靖
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/87b4cd5c-38fc-4e00-c7e6-c94420b05200/public
+    - date: 2023/04/17 00:00:00
+      content:
+      address: 福建厦门
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e00e9d9-9ab4-4971-3d4a-3f6b533de400/public
+
+- class_name: 海南
+  path_name: /album-pages/海南
+  type: 1
+  description: 旅行足迹🚄
+  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  album_list:
+    - date: 2023/04/14 00:00:00
+      content:
+      address: 福建东山
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
+    - date: 2023/04/16 00:00:00
+      content:
+      address: 福建南靖
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/87b4cd5c-38fc-4e00-c7e6-c94420b05200/public
+    - date: 2023/04/17 00:00:00
+      content:
+      address: 福建厦门
+      from:
+      image:
+        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e00e9d9-9ab4-4971-3d4a-3f6b533de400/public
