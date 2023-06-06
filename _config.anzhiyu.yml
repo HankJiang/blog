@@ -964,13 +964,13 @@ home_top:
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 随笔
-      path: /categories/随笔/
+    - name: 笔记
+      path: /categories/笔记/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
-    - name: 游记
-      path: /categories/游记/
+    - name: 随笔
+      path: /categories/随笔/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
