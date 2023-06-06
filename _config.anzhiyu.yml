@@ -438,22 +438,12 @@ footer:
     enable: true
     randomFriends: 2
     project:
-     - title: 服务
+     - title: 本站
        links:
          - title: 51la统计
-           link:
-         - title: 十年之约
-           link:
-         - title: 开往
-           link:
-     - title: 主题
-       links:
-         - title: 文档
-           link: /docs/
-         - title: 源码
-           link:
+           link: https://www.51.la/
          - title: 更新日志
-           link: /update/
+           link: /updates/
      - title: 导航
        links:
          - title: 即刻短文
