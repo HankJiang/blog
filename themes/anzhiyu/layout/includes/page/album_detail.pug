@@ -23,8 +23,12 @@
                     if item.image
                       .album-container-img
                         each iten, indey in item.image
-                          a.album-content-img(href=item.image[indey], target="_blank", data-fancybox="gallery", data-caption="")
-                            img(src=item.image[indey])
+                          if iten.endsWith("iframe")
+                            .iframe-container
+                              iframe(src=item.image[indey], allowfullscreen="true")
+                          else
+                            a.album-content-img(href=item.image[indey], target="_blank", data-fancybox="gallery", data-caption="")
+                              img(src=item.image[indey])
                         .album-content-noimg
                         .album-content-noimg
                         .album-content-noimg
