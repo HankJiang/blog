@@ -1009,7 +1009,7 @@ LA:
 # 标签卖萌
 diytitle:
   enable: true
-  leaveTitle: 长亭外～ 古道边～ (。・_・)/~~~
+  leaveTitle: (。・_・)/~~~
   backTitle: ( ＾∀＾）／
 
 # 留言弹幕配置
