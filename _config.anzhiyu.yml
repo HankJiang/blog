@@ -152,7 +152,12 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    - /img/default_cover.jpg
+    - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/81383140-efc4-4446-9824-205e6ee42e00/public
+    - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/098c7593-8464-4f2f-a685-109f4b501b00/public
+    - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/6f94e1f1-7f5e-4939-b6cd-16ce4788b900/public
+    - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/bd775da6-282a-4fd5-258e-66980a79aa00/public
+    - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/99b64411-5cbc-4694-af2a-91c654906000/public
+    - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/594ddfc9-0af4-4ae0-33c7-ba3f43245d00/public
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
