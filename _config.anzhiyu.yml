@@ -31,6 +31,9 @@ nav:
         - name: 博客
           link: https://gsxxm.xyz/
           icon: /img/favicon.ico
+        - name: GPT助手
+          link: https://gpt.gsxxm.xyz/
+          icon: /img/gpt.png
 
 # Code Blocks (代码相关)
 # --------------------------------------
