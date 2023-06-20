@@ -58,7 +58,7 @@ comments: false
 - 增加feature: 相册集现在可以通过iframe播放流媒体了。
 <!-- endtimeline -->
 
-<!-- timeline 2023-06-06 -->
+<!-- timeline 2023-06-20 -->
 - 增加feature: 自建GPT小助手，现在可以很方便的在墙内使用chat-gpt了。
 <!-- endtimeline -->
 
