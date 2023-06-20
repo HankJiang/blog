@@ -1,12 +1,12 @@
 # ======= 缓存 =======
-FROM node as builder
+FROM node:20-buster as builder
 
 WORKDIR /app
 COPY package.json .
 RUN npm install
 
 # ======= 构建 =======
-FROM node
+FROM node:20-buster
 
 ENV HEXO_SsERVER_PORT=4000
 
