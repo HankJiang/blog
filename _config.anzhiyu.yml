@@ -32,7 +32,7 @@ nav:
           link: https://gsxxm.xyz/
           icon: /img/favicon.ico
         - name: GPT助手
-          link: https://gpt.gsxxm.xyz/
+          link: https://gpt.gsxxm.xyz/#/auth
           icon: /img/gpt.png
 
 # Code Blocks (代码相关)
