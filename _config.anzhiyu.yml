@@ -26,14 +26,19 @@ nav:
   travelling: false
   clock: true
   menu:
-    - title: 网页
+    - title: 网站
       item:
         - name: 博客
           link: https://gsxxm.xyz/
           icon: /img/favicon.ico
+    - title: 工具
+      item:
         - name: GPT助手
           link: https://gpt.gsxxm.xyz/#/auth
           icon: /img/gpt.png
+        - name: Go实验室
+          link: https://go.gsxxm.xyz/
+          icon: /img/go.png
 
 # Code Blocks (代码相关)
 # --------------------------------------
