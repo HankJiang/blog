@@ -62,4 +62,8 @@ comments: false
 - 增加feature: 自建GPT小助手，现在可以很方便的在墙内使用chat-gpt了。
 <!-- endtimeline -->
 
+<!-- timeline 2023-06-21 -->
+- 增加feature: 自建go-playground，现在可以在线运行go代码了。
+<!-- endtimeline -->
+
 {% endtimeline %}
