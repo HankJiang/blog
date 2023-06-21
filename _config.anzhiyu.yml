@@ -36,7 +36,7 @@ nav:
         - name: GPT助手
           link: https://gpt.gsxxm.xyz/#/auth
           icon: /img/gpt.png
-        - name: Go实验室
+        - name: GoLab
           link: https://go.gsxxm.xyz/
           icon: /img/go.png
 
