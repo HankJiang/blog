@@ -25,9 +25,8 @@ spec:
     storage: 1Gi
   accessModes:
     - ReadWriteMany
-    hostPath:
-      path: "/mnt/k8s/jenkins"
-
+  hostPath:
+    path: "/mnt/k8s/jenkins"
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -41,14 +40,13 @@ spec:
   resources:
     requests:
       storage: 1Gi
-
 ############### deployment ###################
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: jenkins
-  namespace: <namespace>
+  namespace: star
 spec:
   replicas: 1
   selector:
@@ -76,11 +74,11 @@ spec:
               protocol: TCP
           resources:
             limits:
-              cpu: 1000m
-              memory: 1Gi
-            requests:
               cpu: 500m
-              memory: 512Mi
+              memory: 500Mi
+            requests:
+              cpu: 200m
+              memory: 200Mi
           livenessProbe:
             httpGet:
               path: /login
@@ -100,11 +98,10 @@ spec:
               mountPath: /var/jenkins_home
       securityContext:
         runAsUser: 0
-        volumes:
-          - name: jenkinshome
-            persistentVolumeClaim:
-              claimName: jenkins-data-home-claim
-
+      volumes:
+        - name: jenkinshome
+          persistentVolumeClaim:
+            claimName: jenkins-data-home-claim
 ############### service ###################
 ---
 apiVersion: v1
