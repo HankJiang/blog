@@ -2,46 +2,46 @@
   path_name: /album-pages/daily
   type: 1
   description: 这里存放的是日常生活中遇到的有趣的事情。
-  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e937ff1d-9489-4aa3-686a-507159eb2200/public
+  cover: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e937ff1d-9489-4aa3-686a-507159eb2200/public
   album_list:
     - date: 2017-08-12
       content: 遇见刺猬
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/92e71060-3b33-46d2-c307-5164300e3700/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/92e71060-3b33-46d2-c307-5164300e3700/public
     - date: 2022-10-20
       content: 晚霞
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fa17658f-bde2-47e2-28d0-0ed43c7b3500/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fa17658f-bde2-47e2-28d0-0ed43c7b3500/public
     - date: 2018-04-16
       content: 复旦的傍晚
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/887d7f66-8f86-44ef-e1a5-23bdd5c60600/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/9d91bac6-eaf8-427f-e9da-01290144d800/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/887d7f66-8f86-44ef-e1a5-23bdd5c60600/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/9d91bac6-eaf8-427f-e9da-01290144d800/public
     - date: 2017-07-10
       content: 彩虹
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e937ff1d-9489-4aa3-686a-507159eb2200/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e937ff1d-9489-4aa3-686a-507159eb2200/public
     - date: 2017-05-12
       content: 晚霞
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8db5ca58-50b9-457b-4591-048348857600/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8db5ca58-50b9-457b-4591-048348857600/public
     - date: 2021-12-24
       content: 流浪猫之家
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/13b4c94b-8afb-4e7d-5401-619467be8500/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/13b4c94b-8afb-4e7d-5401-619467be8500/public
     - date: 2022-10-20
       content: 又见晚霞
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e0f857e9-ee3e-405d-afa6-dab11ea56e00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/694e5e14-610b-4df2-1040-56806023b400/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e0f857e9-ee3e-405d-afa6-dab11ea56e00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/694e5e14-610b-4df2-1040-56806023b400/public
     - date: 2018-10-01
       content: 羊群一样的云
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e65b0f1-02ea-4032-7a65-a8392003fa00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e65b0f1-02ea-4032-7a65-a8392003fa00/public
     - date: 2017-04-22
       content: 耶稣光
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/cec3da15-a279-42ac-b79e-d12af6097b00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/cec3da15-a279-42ac-b79e-d12af6097b00/public
     - date: 2023-03-31
       content: 它们在干啥？
       image:
@@ -49,18 +49,18 @@
     - date: 2022-07-01
       content: 夜晚
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/52d8daa8-2a5b-41cd-0d95-3df5a8023100/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/88321cdd-9796-45cc-fca1-d49db3135a00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/52d8daa8-2a5b-41cd-0d95-3df5a8023100/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/88321cdd-9796-45cc-fca1-d49db3135a00/public
     - date: 2019-10-31
       content: 又见耶稣光
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/5bd049f2-7b97-48a1-392d-584f5ff47c00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/5bd049f2-7b97-48a1-392d-584f5ff47c00/public
 
 - class_name: 上海
   path_name: /album-pages/shanghai
   type: 1
   description: 是魔都啊
-  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fd76361b-fda9-465a-c8be-cfe33a0d6000/public
+  cover: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fd76361b-fda9-465a-c8be-cfe33a0d6000/public
   rowHeight: 220
   limit: 10
   lazyload: true
@@ -72,48 +72,48 @@
       address:
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/0bb906cd-2164-493f-7a4d-9144f1c70100/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b8876d8e-dc99-4652-626b-b4d068608300/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/d873651d-9a4e-4147-e0e8-e36029cd9500/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/eeeefc31-cdf4-44e0-0457-d52c82b7d100/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c1150633-3899-4d2f-e75d-cdb4adde8e00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/0bb906cd-2164-493f-7a4d-9144f1c70100/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b8876d8e-dc99-4652-626b-b4d068608300/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/d873651d-9a4e-4147-e0e8-e36029cd9500/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/eeeefc31-cdf4-44e0-0457-d52c82b7d100/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c1150633-3899-4d2f-e75d-cdb4adde8e00/public
     - date: 2022-07-03
       content: 东海之滨
       address:
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a3998032-6eb5-4a2f-24c2-a7bd96c6d600/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/3d9a7a25-63f6-4f61-25f2-51585deefe00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/63c50fa0-e5a4-413d-3028-8e2a6ec26a00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a3998032-6eb5-4a2f-24c2-a7bd96c6d600/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/3d9a7a25-63f6-4f61-25f2-51585deefe00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/63c50fa0-e5a4-413d-3028-8e2a6ec26a00/public
     - date: 2018-05-09
       content: 同人祭
       address:
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fd76361b-fda9-465a-c8be-cfe33a0d6000/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2d193077-22a1-4f5e-2c7b-90b90805d500/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fd76361b-fda9-465a-c8be-cfe33a0d6000/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2d193077-22a1-4f5e-2c7b-90b90805d500/public
     - date: 2018-07-21
       content: 老场坊
       address:
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/85fddb76-1c15-4b65-445b-6ee812b59700/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f341c91d-43d7-4b40-2280-b15f08332200/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/1b78ebee-cd51-48fd-20f2-3150c9865500/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/85fddb76-1c15-4b65-445b-6ee812b59700/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f341c91d-43d7-4b40-2280-b15f08332200/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/1b78ebee-cd51-48fd-20f2-3150c9865500/public
     - date: 2018-07-21
       content: 艺术馆
       address:
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/058edbf2-3836-40ed-cc82-d010e63f6500/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/93c1db83-4021-410c-2bd6-1d14dfbc1d00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f9c12c1c-2b0b-4007-fca2-04b5c7e79300/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/058edbf2-3836-40ed-cc82-d010e63f6500/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/93c1db83-4021-410c-2bd6-1d14dfbc1d00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f9c12c1c-2b0b-4007-fca2-04b5c7e79300/public
 
 - class_name: 福建
   path_name: /album-pages/fujian
   type: 1
   description: 旅行足迹🚄
-  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/05968dc4-95fd-45a6-3f61-1cb82c24f300/public
+  cover: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/05968dc4-95fd-45a6-3f61-1cb82c24f300/public
   rowHeight: 220
   limit: 10
   lazyload: true
@@ -125,47 +125,47 @@
       address: 东山
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/05968dc4-95fd-45a6-3f61-1cb82c24f300/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/388ab6ad-baec-4ed5-e87b-52149bf3dc00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/47875d8b-74de-4eea-9647-ef2643330d00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8c1aef24-6d45-46a3-dcfd-6133f6fa5100/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c73ef369-67a2-4d82-ece8-c66e0d1ca400/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e9c1ae13-2452-4e02-719c-5916aeb27800/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e5247315-5619-465b-95a5-05199e83b400/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/0fbc5185-60c8-43c7-7402-f04b867e7500/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7dc0fd4e-bfc2-4d00-8632-246f3a7bfc00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/05968dc4-95fd-45a6-3f61-1cb82c24f300/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/388ab6ad-baec-4ed5-e87b-52149bf3dc00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/47875d8b-74de-4eea-9647-ef2643330d00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8c1aef24-6d45-46a3-dcfd-6133f6fa5100/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c73ef369-67a2-4d82-ece8-c66e0d1ca400/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e9c1ae13-2452-4e02-719c-5916aeb27800/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e5247315-5619-465b-95a5-05199e83b400/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/0fbc5185-60c8-43c7-7402-f04b867e7500/public
         - https://customer-e32p534mth6q7w1e.cloudflarestream.com/cabc7d09630aac6890e8d6a09e56e3bb/iframe
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b5af5968-ccd6-402b-8a63-53fe7c586300/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/18e3e51c-d112-414d-2f85-6373c477a600/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b5af5968-ccd6-402b-8a63-53fe7c586300/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/18e3e51c-d112-414d-2f85-6373c477a600/public
     - date: 2023-04-16
       content: 是村落，也是堡垒。
       address: 南靖
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/87b4cd5c-38fc-4e00-c7e6-c94420b05200/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/1253c19d-63cb-463c-b583-a8476aa25400/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/87b4cd5c-38fc-4e00-c7e6-c94420b05200/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/1253c19d-63cb-463c-b583-a8476aa25400/public
         - https://customer-e32p534mth6q7w1e.cloudflarestream.com/87fd01e1d17fa58031f9a5f7bb070a20/iframe
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a6a5ef46-2c76-4f9c-99f0-78fb5afc1900/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/3d3b342b-7d3f-4436-cbe6-481445083b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/78f10cfc-f84b-4e64-9ea8-fcef8b521d00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/cabd0072-ca0f-4283-8efa-63498fb7e800/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/9a8b933f-f176-434e-1168-80d0a10cf700/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a6a5ef46-2c76-4f9c-99f0-78fb5afc1900/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/3d3b342b-7d3f-4436-cbe6-481445083b00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/78f10cfc-f84b-4e64-9ea8-fcef8b521d00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/cabd0072-ca0f-4283-8efa-63498fb7e800/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/9a8b933f-f176-434e-1168-80d0a10cf700/public
     - date: 2023-04-17
       content: 羡慕厦大的同学。
       address: 厦门
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e00e9d9-9ab4-4971-3d4a-3f6b533de400/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c3a05536-d504-4951-7284-0d3e44f6c300/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/be2b4e40-4b51-4a23-36dd-c7f3fcacaf00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b85b211d-237d-49af-33eb-cee95c384b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/92e88b80-33ec-4b26-86cd-56261a23df00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e00e9d9-9ab4-4971-3d4a-3f6b533de400/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c3a05536-d504-4951-7284-0d3e44f6c300/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/be2b4e40-4b51-4a23-36dd-c7f3fcacaf00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b85b211d-237d-49af-33eb-cee95c384b00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/92e88b80-33ec-4b26-86cd-56261a23df00/public
 
 - class_name: 江苏
   path_name: /album-pages/jiangsu
   type: 1
   description: 旅行足迹🚄
-  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/ff87f954-f24d-473e-c8f0-93e6446b2d00/public
+  cover: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/ff87f954-f24d-473e-c8f0-93e6446b2d00/public
   rowHeight: 220
   limit: 10
   lazyload: true
@@ -177,41 +177,41 @@
       address: 无锡
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/ca3a6928-f846-4cf7-75f0-65a5b4720400/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c2d97cce-7b8b-4b10-eb1c-4035be45ad00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e88365bd-e756-4333-d23d-fba177ee5800/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/4c018243-f60b-4422-9735-a93cd0a06c00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/6b25bd61-1019-483d-c673-edfc31e64300/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/da4827da-629a-4b0d-ba53-6a00983d7700/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b71c8385-8ccf-49fb-5362-4b6db4c17600/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/39496d42-14b6-45a0-0249-d31413c01100/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e0ce1b7-c37c-4536-3934-f7110083d400/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/3b59171c-f8d0-4f1b-f4f6-ef7bf0b8e400/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/08867739-ba73-4030-2562-f56149531600/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/ca3a6928-f846-4cf7-75f0-65a5b4720400/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c2d97cce-7b8b-4b10-eb1c-4035be45ad00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e88365bd-e756-4333-d23d-fba177ee5800/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/4c018243-f60b-4422-9735-a93cd0a06c00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/6b25bd61-1019-483d-c673-edfc31e64300/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/da4827da-629a-4b0d-ba53-6a00983d7700/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b71c8385-8ccf-49fb-5362-4b6db4c17600/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/39496d42-14b6-45a0-0249-d31413c01100/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2e0ce1b7-c37c-4536-3934-f7110083d400/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/3b59171c-f8d0-4f1b-f4f6-ef7bf0b8e400/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/08867739-ba73-4030-2562-f56149531600/public
     - date:
       content: 虎丘，园林。
       address: 苏州
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/ff87f954-f24d-473e-c8f0-93e6446b2d00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/90736543-1992-48eb-104b-fdf35b508300/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/eb6a4eb4-bee3-4135-41db-c703092dd800/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/451d16f9-89fe-4a0c-ea06-4fd922551f00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c379c58b-e6cd-471d-863a-dfa55bef3800/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/205d30c0-7827-4033-3036-182d212b1300/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/ff87f954-f24d-473e-c8f0-93e6446b2d00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/90736543-1992-48eb-104b-fdf35b508300/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/eb6a4eb4-bee3-4135-41db-c703092dd800/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/451d16f9-89fe-4a0c-ea06-4fd922551f00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c379c58b-e6cd-471d-863a-dfa55bef3800/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/205d30c0-7827-4033-3036-182d212b1300/public
     - date:
       content: 梧桐之城。
       address: 南京
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/63e79c34-91ab-4958-d6ac-9ae278e7c800/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8fd1d2b2-ac04-48de-ba4a-1259e803f900/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/63e79c34-91ab-4958-d6ac-9ae278e7c800/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8fd1d2b2-ac04-48de-ba4a-1259e803f900/public
 
 - class_name: 浙江
   path_name: /album-pages/zhejiang
   type: 1
   description: 旅行足迹🚄
-  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e4079fd8-d60b-4879-47f7-cae14e8f8400/public
+  cover: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e4079fd8-d60b-4879-47f7-cae14e8f8400/public
   rowHeight: 220
   limit: 10
   lazyload: true
@@ -223,36 +223,36 @@
       address: 慈溪
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e776b234-0ca6-43b1-78ce-8c7b574a5600/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7c0650a2-a88e-43a5-daf6-308b62b1b200/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/0c45d6e8-a418-488f-fd3b-76fa0a23f700/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/af6408e5-4293-44e1-fc58-f074fb523c00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e776b234-0ca6-43b1-78ce-8c7b574a5600/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7c0650a2-a88e-43a5-daf6-308b62b1b200/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/0c45d6e8-a418-488f-fd3b-76fa0a23f700/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/af6408e5-4293-44e1-fc58-f074fb523c00/public
     - date: 2020-10-01
       content: 花雕酒，乌篷船。离家越近越容易迟到。
       address: 绍兴
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e4079fd8-d60b-4879-47f7-cae14e8f8400/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/3d5db07b-e73a-41be-c477-257e4c8dbc00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/09336d84-b9d6-470d-8059-a5f9a2f20100/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/bb82681b-5ce2-48f6-603e-231750112d00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e4079fd8-d60b-4879-47f7-cae14e8f8400/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/3d5db07b-e73a-41be-c477-257e4c8dbc00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/09336d84-b9d6-470d-8059-a5f9a2f20100/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/bb82681b-5ce2-48f6-603e-231750112d00/public
     - date: 2023-05-07
       content: 阿里巴巴。
       address: 杭州
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a73c3ba3-5311-42e7-e36c-a88193f2d600/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/41bfdee8-2973-4d9b-f5a3-11a2d0904600/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/9379288b-265a-49ea-5c4e-fa13b2da6e00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/cbbe1dbb-ea60-457a-04a4-c507c15a0300/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b0c9d23c-0344-4b14-886e-72042c85eb00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e2577ab1-9643-4fe3-0754-3678dbafc100/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a73c3ba3-5311-42e7-e36c-a88193f2d600/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/41bfdee8-2973-4d9b-f5a3-11a2d0904600/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/9379288b-265a-49ea-5c4e-fa13b2da6e00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/cbbe1dbb-ea60-457a-04a4-c507c15a0300/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b0c9d23c-0344-4b14-886e-72042c85eb00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/e2577ab1-9643-4fe3-0754-3678dbafc100/public
 
 - class_name: 四川
   path_name: /album-pages/sichuan
   type: 1
   description: 旅行足迹🚄
-  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2604af2a-f250-43a8-db9c-e788e71c5900/public
+  cover: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2604af2a-f250-43a8-db9c-e788e71c5900/public
   rowHeight: 220
   limit: 10
   lazyload: true
@@ -264,50 +264,50 @@
       address: 成都
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a3d8060b-6ac7-4100-4849-13ebc2667000/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/5a313940-f550-4ef0-5b9a-35bd2347a000/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f0b4bd07-1333-4969-678b-bddf227c4000/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a3d8060b-6ac7-4100-4849-13ebc2667000/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/5a313940-f550-4ef0-5b9a-35bd2347a000/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f0b4bd07-1333-4969-678b-bddf227c4000/public
         - https://customer-e32p534mth6q7w1e.cloudflarestream.com/699bf3785dd51d18fc16afcff793a9a8/iframe
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2546e641-04b4-4e68-6794-52bc68d00100/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45aba822-cb3f-492b-60e8-546bda9acb00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fca760ef-4783-4173-61b6-bf1775732a00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2604af2a-f250-43a8-db9c-e788e71c5900/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7c04e8eb-f579-477d-28f1-e0066c1e2f00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2546e641-04b4-4e68-6794-52bc68d00100/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45aba822-cb3f-492b-60e8-546bda9acb00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fca760ef-4783-4173-61b6-bf1775732a00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2604af2a-f250-43a8-db9c-e788e71c5900/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7c04e8eb-f579-477d-28f1-e0066c1e2f00/public
     - date: 2020-06-16
       content: 草原，牦牛，雪山。
       address: 甘孜
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/d7fdde39-067b-40bd-e078-ae8d82fc5100/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/9ab42fde-eb28-45fe-74be-a17b4933ad00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/975e4d61-11fd-45b2-6070-11abad036400/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fd53e160-1fa7-4cd6-2ec9-604d2fc07f00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/d7fdde39-067b-40bd-e078-ae8d82fc5100/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/9ab42fde-eb28-45fe-74be-a17b4933ad00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/975e4d61-11fd-45b2-6070-11abad036400/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fd53e160-1fa7-4cd6-2ec9-604d2fc07f00/public
         - https://customer-e32p534mth6q7w1e.cloudflarestream.com/3a99012344507db39835da8df1f336c8/iframe
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8dbd2fb0-78ad-4726-ed2a-2a8134bf2200/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/99bd3cdb-3dad-41f6-21bf-33ae709fe200/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8dbd2fb0-78ad-4726-ed2a-2a8134bf2200/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/99bd3cdb-3dad-41f6-21bf-33ae709fe200/public
     - date: 2020-06-18
       content: 赛博之城。
       address: 重庆
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f3ae4370-577a-447a-9daa-e66867efc200/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f423233a-683c-4f32-791e-bccdcca57c00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f3ae4370-577a-447a-9daa-e66867efc200/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f423233a-683c-4f32-791e-bccdcca57c00/public
         - https://customer-e32p534mth6q7w1e.cloudflarestream.com/9b4af62df1836db943050181bf67705c/iframe
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/985b3035-f828-477f-b505-5de25db2a900/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/431cd6fe-9a7f-4521-0a8f-a94da813df00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a135ed59-c9d8-45ef-35e6-814ca784f800/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/985b3035-f828-477f-b505-5de25db2a900/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/431cd6fe-9a7f-4521-0a8f-a94da813df00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a135ed59-c9d8-45ef-35e6-814ca784f800/public
         - https://customer-e32p534mth6q7w1e.cloudflarestream.com/a5e412615f8c5d8f5aa8a8658e550069/iframe
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7d55b1ae-c4e3-4935-0ac4-1e9083f56900/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/33e52ceb-1660-4fb5-156b-4b7656fbcb00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/ca967c54-ded9-4c6a-6aa3-5dea03011600/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/293c1b81-a5b8-4154-d7c4-015df75a2800/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f3e6a146-d57b-449e-ac90-3c8e35f10d00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7d55b1ae-c4e3-4935-0ac4-1e9083f56900/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/33e52ceb-1660-4fb5-156b-4b7656fbcb00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/ca967c54-ded9-4c6a-6aa3-5dea03011600/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/293c1b81-a5b8-4154-d7c4-015df75a2800/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f3e6a146-d57b-449e-ac90-3c8e35f10d00/public
 
 - class_name: 海南
   path_name: /album-pages/hainan
   type: 2
   description: 旅行足迹🚄
-  cover: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/4877c873-a6cc-4e37-f228-a2dd76648b00/public
+  cover: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/4877c873-a6cc-4e37-f228-a2dd76648b00/public
   rowHeight: 220
   limit: 10
   lazyload: true
@@ -319,15 +319,15 @@
       address: 三亚
       from:
       image:
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/73ed36e6-ebaa-4d04-bb33-aa8e4f44c000/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/52d86686-242a-4eb4-74f9-16097e9bf100/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/4877c873-a6cc-4e37-f228-a2dd76648b00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/82d69938-9258-4206-71c9-3e3791c76d00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fec68d33-d64f-49ef-152f-c8a4ee503f00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/3e952f7f-0559-4243-8caf-39a25a8c6700/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/6225a0e7-84e0-458f-198d-1bd9716a1600/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/cc86fc10-2918-43cc-7dff-9c2e65f98e00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2f61fcd0-9c10-4518-4b29-21388acd0c00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fa25d5b5-83fc-40e8-c272-bb496a6f2d00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/d6507396-550f-426c-d45c-84bc1dea2e00/public
-        - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/bca2878e-35e1-41b4-bc04-53be14efb100/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/73ed36e6-ebaa-4d04-bb33-aa8e4f44c000/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/52d86686-242a-4eb4-74f9-16097e9bf100/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/4877c873-a6cc-4e37-f228-a2dd76648b00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/82d69938-9258-4206-71c9-3e3791c76d00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fec68d33-d64f-49ef-152f-c8a4ee503f00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/3e952f7f-0559-4243-8caf-39a25a8c6700/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/6225a0e7-84e0-458f-198d-1bd9716a1600/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/cc86fc10-2918-43cc-7dff-9c2e65f98e00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2f61fcd0-9c10-4518-4b29-21388acd0c00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fa25d5b5-83fc-40e8-c272-bb496a6f2d00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/d6507396-550f-426c-d45c-84bc1dea2e00/public
+        - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/bca2878e-35e1-41b4-bc04-53be14efb100/public

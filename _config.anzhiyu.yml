@@ -29,15 +29,15 @@ nav:
     - title: 网站
       item:
         - name: 博客
-          link: https://gsxxm.xyz/
+          link: https://zifeiyu.life/
           icon: /img/favicon.ico
     - title: 工具
       item:
         - name: GPT助手
-          link: https://gpt.gsxxm.xyz/#/auth
+          link: https://gpt.zifeiyu.life/#/auth
           icon: /img/gpt.png
         - name: Go实验室
-          link: https://go.gsxxm.xyz/
+          link: https://go.zifeiyu.life/
           icon: /img/go.png
 
 # Code Blocks (代码相关)
@@ -117,7 +117,7 @@ favicon: /img/favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
+  img: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
   effect: false
 
 # Disable all banner image
@@ -160,12 +160,12 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/81383140-efc4-4446-9824-205e6ee42e00/public
-    - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/098c7593-8464-4f2f-a685-109f4b501b00/public
-    - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/6f94e1f1-7f5e-4939-b6cd-16ce4788b900/public
-    - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/bd775da6-282a-4fd5-258e-66980a79aa00/public
-    - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/99b64411-5cbc-4694-af2a-91c654906000/public
-    - https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/594ddfc9-0af4-4ae0-33c7-ba3f43245d00/public
+    - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/81383140-efc4-4446-9824-205e6ee42e00/public
+    - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/098c7593-8464-4f2f-a685-109f4b501b00/public
+    - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/6f94e1f1-7f5e-4939-b6cd-16ce4788b900/public
+    - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/bd775da6-282a-4fd5-258e-66980a79aa00/public
+    - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/99b64411-5cbc-4694-af2a-91c654906000/public
+    - https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/594ddfc9-0af4-4ae0-33c7-ba3f43245d00/public
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
@@ -703,7 +703,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
+  avatar: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
 
 # aside (侧边栏)
 # --------------------------------------
@@ -960,7 +960,7 @@ home_top:
   timemode: date #date/updated
   title: 往不可谏
   subTitle: 来犹可追
-  siteText: GSXXM.XYZ
+  siteText: ZIFEIYU.LIFE
   category:
     - name: 技术
       path: /categories/技术/
@@ -986,8 +986,8 @@ home_top:
   banner:
     tips: 黄金C位·等你来占
     title: 👉 广告位火热招租中！！！
-    image: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45fd6030-ba02-40e2-d9c8-0c8aaf6a4b00/public
-    link: https://gsxxm.xyz
+    image: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45fd6030-ba02-40e2-d9c8-0c8aaf6a4b00/public
+    link: https://zifeiyu.life
 
 # 朋友圈配置
 friends_vue:

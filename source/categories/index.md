@@ -16,35 +16,35 @@ top_img: false
 <div id="lib-cards" class="container">
 
 <a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/前端开发/")'>
-    <card data-image="https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45fd6030-ba02-40e2-d9c8-0c8aaf6a4b00/public">
+    <card data-image="https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45fd6030-ba02-40e2-d9c8-0c8aaf6a4b00/public">
         <h1 slot="header">技术</h1>
         <p slot="content">笔记，实践，教程。</p>
     </card>
 </a>
 
 <a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/大学生涯/")'>
-    <card data-image="https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45fd6030-ba02-40e2-d9c8-0c8aaf6a4b00/public">
+    <card data-image="https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45fd6030-ba02-40e2-d9c8-0c8aaf6a4b00/public">
         <h1 slot="header">随笔</h1>
         <p slot="content">一些想法。</p>
     </card>
 </a>
 
 <a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/生活日常/")'>
-    <card data-image="https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45fd6030-ba02-40e2-d9c8-0c8aaf6a4b00/public">
+    <card data-image="https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45fd6030-ba02-40e2-d9c8-0c8aaf6a4b00/public">
         <h1 slot="header">游记</h1>
         <p slot="content">旅途中的一些风景和故事。</p>
     </card>
 </a>
 
 <a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/年度总结/")'>
-    <card data-image="https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45fd6030-ba02-40e2-d9c8-0c8aaf6a4b00/public">
+    <card data-image="https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45fd6030-ba02-40e2-d9c8-0c8aaf6a4b00/public">
         <h1 slot="header">年度总结</h1>
         <p slot="content">人生大事年度总结。</p>
     </card>
 </a>
 
 <a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/AnZhiYu/")'>
-    <card data-image="https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45fd6030-ba02-40e2-d9c8-0c8aaf6a4b00/public">
+    <card data-image="https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/45fd6030-ba02-40e2-d9c8-0c8aaf6a4b00/public">
         <h1 slot="header">待定</h1>
         <p slot="content">待定分类。</p>
     </card>

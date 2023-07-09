@@ -2,40 +2,40 @@
   creativity_list:
     - name: Docker
       color: "#57b6e6"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/048b9fd7-628d-4e8b-f517-278b1cff7a00/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/048b9fd7-628d-4e8b-f517-278b1cff7a00/public
     - name: Photoshop
       color: "#4082c3"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b83990ae-b49f-4c50-2190-3c49469c2700/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b83990ae-b49f-4c50-2190-3c49469c2700/public
     - name: Node
       color: "#333"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/df6a9582-6bc6-4ca5-e7ba-e7ea2d9cac00/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/df6a9582-6bc6-4ca5-e7ba-e7ea2d9cac00/public
     - name: Webpack
       color: "#2e3a41"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8f1ec54f-a83f-4800-56d4-0d4ffa6b1500/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/8f1ec54f-a83f-4800-56d4-0d4ffa6b1500/public
     - name: Python
       color: "#fff"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/4fa8aab8-cc35-4eb8-365d-d43ab3c1bf00/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/4fa8aab8-cc35-4eb8-365d-d43ab3c1bf00/public
     - name: Flutter
       color: "#4499e4"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/23a0f304-d9f4-46a0-1b59-f94eeb1b7400/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/23a0f304-d9f4-46a0-1b59-f94eeb1b7400/public
     - name: Vue
       color: "#b8f0ae"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c7593506-c486-49db-c230-6f3f46210500/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/c7593506-c486-49db-c230-6f3f46210500/public
     - name: CSS3
       color: "#2c51db"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7943e6b5-5fba-46a8-09f6-c203c9340600/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/7943e6b5-5fba-46a8-09f6-c203c9340600/public
     - name: JS
       color: "#f7cb4f"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/89c9d74f-7398-4c57-e911-840e9d842100/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/89c9d74f-7398-4c57-e911-840e9d842100/public
     - name: HTML
       color: "#e9572b"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a80ed43f-2da3-4ed7-d88a-24a2e7f5d600/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/a80ed43f-2da3-4ed7-d88a-24a2e7f5d600/public
     - name: Git
       color: "#df5b40"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/77deabcd-13b5-4b8f-2664-a769734cea00/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/77deabcd-13b5-4b8f-2664-a769734cea00/public
     - name: Ruby
       color: "#FFFFFF"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/57b432f1-4c41-4776-1da1-48ccac5c4b00/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/57b432f1-4c41-4776-1da1-48ccac5c4b00/public
     - name: Kubernetes
       color: "#FFFFFF"
-      icon: https://bucket.gsxxm.xyz/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/32785aff-6830-4f93-53ad-c5b24c314000/public
+      icon: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/32785aff-6830-4f93-53ad-c5b24c314000/public

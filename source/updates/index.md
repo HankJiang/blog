@@ -24,7 +24,7 @@ comments: false
 <!-- endtimeline -->
 
 <!-- timeline 2023-05-25 -->
-- 在nameslio购买域名gsxxm.xyz。
+- 在nameslio购买域名zifeiyu.life。
 - https得要啊，但是商业TLS证书可太贵了，找了下用letsencrypt+Certbot手动申请证书。
 - 为了方便证书申请，注册clouldflare用其DNS解析，顺带做站点防护。
 - 域名绑定了！证书也有了！
@@ -40,7 +40,7 @@ comments: false
 <!-- timeline 2023-05-29 -->
 - 调试Jenkins pipline。
 - `hexo`->`github hook`->`jenkins`->`dockerhub`->`jenkins`->`kubernetes` CICD打通！
-- 网站可以通过https://gsxxm.xyz访问了!
+- 网站可以通过https://zifeiyu.life访问了!
 <!-- endtimeline -->
 
 <!-- timeline 2023-06-01 -->
