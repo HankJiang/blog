@@ -47,4 +47,4 @@ No resources found
 
 ### 搭建NFS服务器
 
-trigger
+trigger2
