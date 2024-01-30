@@ -46,3 +46,5 @@ No resources found
 基本思路确定，接下来开始搭建！
 
 ### 搭建NFS服务器
+
+trigger
