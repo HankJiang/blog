@@ -45,6 +45,82 @@ No resources found
 
 基本思路确定，接下来开始搭建！
 
-### 搭建NFS服务器
+### 搭建NFS服务器(CentOS)
 
-trigger4
+1. **在Master节点上安装NFS服务**：
+    - 使用终端登录到Master节点。
+    - 安装NFS服务：
+      ```bash
+      sudo yum install nfs-utils
+      sudo systemctl enable nfs-server
+      sudo systemctl start nfs-server
+      ```
+
+2. **配置NFS共享**：
+    - 编辑NFS的导出文件`/etc/exports`，添加以下行：
+      ```
+      /disk-a *(rw,sync,no_root_squash,no_subtree_check)
+      ```
+      这里`/disk-a`是要共享的目录，`*`表示允许所有客户端访问，`rw`表示读写权限，`sync`表示同步写入磁盘，`no_root_squash`表示远程root用户具有root权限，`no_subtree_check`提高性能。
+    - 应用配置更改：
+      ```bash
+      sudo exportfs -a
+      sudo systemctl restart nfs-server
+      ```
+
+3. **开放相关端口**：
+   NFS服务需要开放一些端口才能正常工作。NFS在Linux系统中通常使用以下端口：
+   - **TCP/UDP 2049**: NFS本身的端口。
+   - **TCP/UDP 111**: RPC绑定端口，用于客户端发现NFS服务的端口号。
+   - **TCP/UDP 20048**: NFS mountd守护进程，用于挂载请求。
+   - **TCP 1110** 和 **UDP 32767**: nlockmgr（NFS锁管理器）。
+   可以使用相关防火墙命令开放端口，如果使用云服务，可以在服务器控制台进行配置。
+
+4. **在所有节点上配置NFS客户端**：
+    - 在所有slave节点上安装NFS客户端：
+      ```bash
+      sudo yum install nfs-utils
+      ```
+    - 测试挂载是否成功：
+      ```bash
+      sudo mkdir -p /mnt/disk-a
+      sudo mount -t nfs <master-node-ip>:/disk-a /mnt/disk-a
+      ```
+      将`<master-node-ip>`替换为您的Master节点的IP地址。
+
+5. **在Kubernetes中配置Persistent Volumes (PV) 和 Persistent Volume Claims (PVC)**：
+    - 创建一个Persistent Volume (PV) 配置文件`nfs-pv.yaml`：
+      ```yaml
+      apiVersion: v1
+      kind: PersistentVolume
+      metadata:
+        name: nfs-pv
+      spec:
+        capacity:
+          storage: 100Gi
+        accessModes:
+          - ReadWriteMany
+        nfs:
+          path: /disk-a
+          server: <master-node-ip>
+        persistentVolumeReclaimPolicy: Retain
+      ```
+    - 创建一个Persistent Volume Claim (PVC) 配置文件`nfs-pvc.yaml`：
+      ```yaml
+      apiVersion: v1
+      kind: PersistentVolumeClaim
+      metadata:
+        name: nfs-pvc
+      spec:
+        accessModes:
+          - ReadWriteMany
+        resources:
+          requests:
+            storage: 100Gi
+        volumeName: nfs-pv
+      ```
+    - 应用这些配置文件：
+      ```bash
+      kubectl apply -f nfs-pv.yaml
+      kubectl apply -f nfs-pvc.yaml
+      ```
