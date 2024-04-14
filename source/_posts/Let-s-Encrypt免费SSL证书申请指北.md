@@ -57,12 +57,9 @@ date: 2023-06-07 19:47:08
     touch ~/secrets/cloudflare.ini
     chmod 600 ~/secrets/cloudflare.ini
     echo 'dns_cloudflare_api_token = <API key>' > ~/secrets/cloudflare.ini
-    certbot certonly \
-      --dns-cloudflare \
-      --dns-cloudflare-credentials ~/secrets/cloudflare.ini \
-      -d domain.xxx \
-      -d a.domain.xxx \
-      -d b.domain.xxx
+    certbot certonly --dns-cloudflare --dns-cloudflare-credentials ~/secrets/cloudflare.ini -d aaa.xxx
+    certbot certonly --dns-cloudflare --dns-cloudflare-credentials ~/secrets/cloudflare.ini -d bbb.xxx
+    certbot certonly --dns-cloudflare --dns-cloudflare-credentials ~/secrets/cloudflare.ini -d ccc.xxx
     ```
   
   成功后命令行输出如下
@@ -83,12 +80,16 @@ date: 2023-06-07 19:47:08
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     ```
 
+- 查看证书列表
+
+  ```bash
+  certbot certificates
+  ```
+
 - 删除证书
 
-    ```bash
-    certbot delete --cert-name example.com
-    ```
+  ```bash
+  certbot delete --cert-name example.com
+  ```
 
 ---
-
-## 相关知识 TODO

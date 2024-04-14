@@ -4,13 +4,21 @@ apiVersion: v1
 kind: Pod
 spec:
   containers:
-    - name: docker
-      image: gsxxm/docker-kubectl:latest
-      securityContext:
-        privileged: true
-      env:
-        - name: DOCKER_TLS_CERTDIR
-          value: ""
+  - name: dind-kubectl
+    image: gsxxm/docker-kubectl:latest
+    securityContext:
+      privileged: true
+    env:
+    - name: DOCKER_TLS_CERTDIR
+      value: ""
+    - name: DOCKER_HOST
+      value: tcp://localhost:2375
+    volumeMounts:
+    - name: dind-storage
+      mountPath: /var/lib/docker
+  volumes:
+  - name: dind-storage
+    emptyDir: {}
 ''') {
     node(POD_LABEL) {
         def myRepo = checkout scm
@@ -23,7 +31,7 @@ spec:
                 credentialsId: 'dockerhub',
                 usernameVariable: 'DOCKER_HUB_USER',
                 passwordVariable: 'DOCKER_HUB_PASSWORD']]) {
-                    container('docker') {
+                    container('dind-kubectl') {
                         sh """
                             docker login -u ${DOCKER_HUB_USER} -p ${DOCKER_HUB_PASSWORD}
                             docker build -t ${imageTag} .
