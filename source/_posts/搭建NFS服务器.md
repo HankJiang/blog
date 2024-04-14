@@ -1,5 +1,5 @@
 ---
-title: 搭建NFS服务器
+title: 搭建NFS服务器(CentOS)
 categories: 笔记
 tags:
   - 运维
