@@ -31,7 +31,9 @@ nav:
         - name: 博客
           link: https://zifeiyu.life/
           icon: /img/favicon.ico
-        - name: 兴趣社交平台（个人项目·Demo）
+    - title: 个人项目
+      item:
+        - name: 趣友（👷施工中）
           link: https://hobby-dating-web.zifeiyu.life/login
           icon: /img/chat.png
     - title: 工具

@@ -21,11 +21,11 @@ date: 2023-06-07 21:14:36
 cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
 [kubernetes]
 name=Kubernetes
-baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-\$basearch
+baseurl=https://pkgs.k8s.io/core:/stable:/v1.26/rpm/
 enabled=1
 gpgcheck=1
-gpgkey=https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
-exclude=kubelet kubeadm kubectl
+gpgkey=https://pkgs.k8s.io/core:/stable:/v1.26/rpm/repodata/repomd.xml.key
+exclude=kubelet kubeadm kubectl cri-tools kubernetes-cni
 EOF
 
 # 将 SELinux 设置为 permissive 模式（相当于将其禁用）
@@ -37,7 +37,7 @@ sudo systemctl enable --now kubelet
 
 ### 2. 配置docker的cgroup
 
-编辑`/etc/docker/daemon.json` 增加以下内容
+  编辑`/etc/docker/daemon.json` 增加以下内容
 
 ```bash
 {
@@ -167,3 +167,4 @@ kubeadm token create --print-join-command
 ## 参考资料
 [kubernetes官方文档](https://kubernetes.io/zh-cn/docs/setup/production-environment/tools/kubeadm/)
 [凤凰架构](http://icyfenix.cn/appendix/deployment-env-setup/setup-kubernetes/setup-kubeadm.html)
+[CentOS Docker安装方式](https://computingforgeeks.com/install-docker-and-docker-compose-on-rhel-8-centos-8/)
