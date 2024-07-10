@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 对待生命不妨大胆一点，因为我们始终要失去它。
-  avatarImg: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
+  avatarImg: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public
   name: 江汉
   description: 是一名前后端开发，现灵活修仙⚡ 。
   aboutsiteTips:
@@ -28,8 +28,8 @@
   map:
     title: 我现在住在
     StrengthenTitle: 中国，上海市
-    background: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b313d2c4-0e53-4087-ce9d-ceeba3e22f00/public
-    backgroundDark: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b313d2c4-0e53-4087-ce9d-ceeba3e22f00/public
+    background: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b313d2c4-0e53-4087-ce9d-ceeba3e22f00/public
+    backgroundDark: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/b313d2c4-0e53-4087-ce9d-ceeba3e22f00/public
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 1994
@@ -40,9 +40,9 @@
   personalities:
     author_name: 逻辑学家
     personality_type: INTP-A
-    photo_url: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fd53e160-1fa7-4cd6-2ec9-604d2fc07f00/public
-#    personality_img: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f1f4f0d0-51bb-42ef-520e-582852e51800/public
-    personality_img: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f1f4f0d0-51bb-42ef-520e-582852e51800/public
+    photo_url: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/fd53e160-1fa7-4cd6-2ec9-604d2fc07f00/public
+#    personality_img: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f1f4f0d0-51bb-42ef-520e-582852e51800/public
+    personality_img: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/f1f4f0d0-51bb-42ef-520e-582852e51800/public
     name_url: https://www.16personalities.com/ch/intp-%E4%BA%BA%E6%A0%BC
   maxim:
     maxim_tips: 公益广告

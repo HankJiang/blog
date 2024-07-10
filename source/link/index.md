@@ -18,7 +18,7 @@ top_img: false
 
 [comment]: <> (  link: https://anzhiy.cn/)
 
-[comment]: <> (  avatar: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public)
+[comment]: <> (  avatar: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public)
 
 [comment]: <> (  descr: 生活明朗，万物可爱)
 
@@ -40,7 +40,7 @@ top_img: false
 
 [comment]: <> (  "url": "https://anzhiy.cn/",)
 
-[comment]: <> (  "avatar": "https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public",)
+[comment]: <> (  "avatar": "https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public",)
 
 [comment]: <> (  "description": "生活明朗，万物可爱",)
 
@@ -64,7 +64,7 @@ top_img: false
 
 [comment]: <> (| 站点链接   | https://anzhiy.cn/                                                        |)
 
-[comment]: <> (| 站长头像   | https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public       |)
+[comment]: <> (| 站长头像   | https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public       |)
 
 [comment]: <> (| 站点描述   | 生活明朗，万物可爱                                                        |)
 
@@ -84,7 +84,7 @@ top_img: false
 
 [comment]: <> (    link: "https://anzhiy.cn/",)
 
-[comment]: <> (    image: "https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public",)
+[comment]: <> (    image: "https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public",)
 
 [comment]: <> (  })
 
@@ -100,7 +100,7 @@ top_img: false
 
 [comment]: <> (  "title": "安知鱼",)
 
-[comment]: <> (  "avatar": "https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public",)
+[comment]: <> (  "avatar": "https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public",)
 
 [comment]: <> (  "screenshot": "https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg",)
 
@@ -170,7 +170,7 @@ top_img: false
 
 [comment]: <> (3. 描述：生活明朗，万物可爱)
 
-[comment]: <> (4. 头像：https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public)
+[comment]: <> (4. 头像：https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public)
 
 [comment]: <> (5. 站点截图：https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg)
 
@@ -198,7 +198,7 @@ top_img: false
 
 [comment]: <> (网站地址：https://anzhiy.cn/)
 
-[comment]: <> (头像图片url：https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public)
+[comment]: <> (头像图片url：https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/49577376-c2fa-4894-5a63-fc1a4b7a5400/public)
 
 [comment]: <> (描述：生活明朗，万物可爱)
 

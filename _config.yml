@@ -14,7 +14,7 @@ email: jianghan.ah@foxmail.com
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://zifeiyu.life
+url: https://jhpast.life
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:

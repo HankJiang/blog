@@ -4,19 +4,19 @@
   link_list:
     - name: 傑洛特
       link: https://www.douban.com/game/21355730/
-      avatar: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2da39147-fe73-4066-bc8a-9cbdc2b78600/public
+      avatar: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2da39147-fe73-4066-bc8a-9cbdc2b78600/public
       descr: 仇恨与偏见永远无法连根拔除。
-      siteshot: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2da39147-fe73-4066-bc8a-9cbdc2b78600/public
+      siteshot: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2da39147-fe73-4066-bc8a-9cbdc2b78600/public
     - name: 伊丽莎白
       link: https://www.douban.com/game/20499450/
-      avatar: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/50fe380c-2c83-49d1-1a0b-6b0211e49c00/public
+      avatar: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/50fe380c-2c83-49d1-1a0b-6b0211e49c00/public
       descr: 你担心上帝吗？
-      siteshot: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/50fe380c-2c83-49d1-1a0b-6b0211e49c00/public
+      siteshot: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/50fe380c-2c83-49d1-1a0b-6b0211e49c00/public
     - name: 史派克
       link: https://movie.douban.com/subject/1424406/
-      avatar: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/1d8298d2-3846-49db-d745-76ff6a394900/public
+      avatar: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/1d8298d2-3846-49db-d745-76ff6a394900/public
       descr: 你不想和我们一起出去玩，浪费你的生命吗？
-      siteshot: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/1d8298d2-3846-49db-d745-76ff6a394900/public
+      siteshot: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/1d8298d2-3846-49db-d745-76ff6a394900/public
 
 #- class_name: 小伙伴
 #  class_desc: 那些人，那些事
@@ -25,9 +25,9 @@
 #  link_list:
 #    - name: 斯派克
 #      link: https://movie.douban.com/subject/1424406/
-#      avatar: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/1d8298d2-3846-49db-d745-76ff6a394900/public
+#      avatar: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/1d8298d2-3846-49db-d745-76ff6a394900/public
 #      descr: 你不想和我们一起出去玩，浪费你的生命吗？
-#      siteshot: https://bucket.zifeiyu.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2da39147-fe73-4066-bc8a-9cbdc2b78600/public
+#      siteshot: https://bucket.jhpast.life/cdn-cgi/imagedelivery/s0Dxqb8eFXuEhS1LLUbikA/2da39147-fe73-4066-bc8a-9cbdc2b78600/public
 
 # - class_name: 失联友链💔
 #   class_desc: 近期无法访问或取消友链
